@@ -14,7 +14,7 @@ const html = [
 export default defineConfig({
   lang: 'it-IT',
   title: 'Learning',
-  description: 'Un passo alla volta: HTML, CSS, JavaScript e poi Rust. Lezioni pratiche in italiano.',
+  description: 'Una base frontend e backend: HTML, CSS, JavaScript, TypeScript, Node.js, SQL e poi Rust. Lezioni pratiche in italiano.',
   cleanUrls: true,
   lastUpdated: true,
   head: [['link', { rel: 'icon', href: '/favicon.svg' }], ['meta', { name: 'theme-color', content: '#21715a' }]],
@@ -22,12 +22,21 @@ export default defineConfig({
     logo: '/favicon.svg',
     nav: [{ text: 'Percorso', link: '/percorso' }, { text: 'HTML', link: '/html/' }, { text: 'Laboratorio', link: '/html/progetto' }],
     sidebar: [
-      { text: 'Il percorso', items: [{ text: 'Come studiare', link: '/percorso' }] },
+      { text: 'Il percorso', items: [{ text: 'Roadmap frontend e backend', link: '/percorso' }] },
       { text: 'HTML · Inizia qui', items: html },
-      { text: 'Le prossime tappe', collapsed: true, items: [
+      { text: 'Le basi frontend', collapsed: true, items: [
         { text: 'CSS · Lo stile', link: '/css/' },
         { text: 'JavaScript · Le interazioni', link: '/javascript/' },
-        { text: 'Rust · La prossima sfida', link: '/rust/' },
+        { text: 'TypeScript · I tipi', link: '/typescript/' },
+      ] },
+      { text: 'Backend e applicazione completa', collapsed: true, items: [
+        { text: 'HTTP, API e Node.js', link: '/backend/' },
+        { text: 'SQL e PostgreSQL', link: '/database/' },
+        { text: 'Il progetto full stack', link: '/fullstack/' },
+      ] },
+      { text: 'Dopo le basi', collapsed: true, items: [
+        { text: 'Un framework frontend', link: '/frontend/' },
+        { text: 'Rust · Il prossimo linguaggio', link: '/rust/' },
       ] },
     ],
     search: { provider: 'local', options: { locales: { root: { translations: {
@@ -42,6 +51,6 @@ export default defineConfig({
     darkModeSwitchTitle: 'Passa al tema scuro',
     sidebarMenuLabel: 'Lezioni',
     returnToTopLabel: 'Torna in alto',
-    footer: { message: 'Leggi. Prova. Cambia qualcosa. Ripeti.', copyright: 'Learning · HTML → CSS → JavaScript → Rust' },
+    footer: { message: 'Leggi. Prova. Cambia qualcosa. Ripeti.', copyright: 'Learning · Frontend, backend e poi Rust' },
   },
 })

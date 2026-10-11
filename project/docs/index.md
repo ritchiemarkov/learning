@@ -3,7 +3,7 @@ layout: home
 hero:
   name: Learning
   text: Una pagina alla volta.
-  tagline: Dalla tua prima riga di HTML a Rust. Un percorso in italiano, con esempi piccoli e cose da costruire davvero.
+  tagline: Dalla prima pagina HTML a un'applicazione con frontend, backend e database. Poi Rust. Un percorso pratico in italiano, un passo alla volta.
   actions:
     - theme: brand
       text: Inizia con HTML →
@@ -24,8 +24,16 @@ features:
     details: Aggiungeremo interazioni, ragionando su variabili, funzioni, eventi e dati.
     link: /javascript/
     linkText: Guarda gli obiettivi
-  - title: 04 / Rust
-    details: Passeremo a tipi, ownership e gestione degli errori, partendo da piccoli programmi da terminale.
+  - title: 04 / TypeScript
+    details: Dopo un progetto JavaScript, aggiungeremo tipi e controlli al codice. La stessa base ci accompagnerà nel browser e sul server.
+    link: /typescript/
+    linkText: Guarda gli obiettivi
+  - title: Poi / Backend e dati
+    details: HTTP, API, Node.js e SQL. Collegheremo l'interfaccia a un server e a un database per costruire la prima applicazione completa.
+    link: /backend/
+    linkText: Esplora il backend
+  - title: Infine / Rust
+    details: Dopo la base frontend e backend, esploreremo tipi, ownership e gestione degli errori con piccoli programmi da terminale.
     link: /rust/
     linkText: Guarda dove arriveremo
 ---

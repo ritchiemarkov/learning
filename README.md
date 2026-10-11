@@ -1,6 +1,6 @@
 # Learning
 
-Un percorso pratico in italiano: **HTML → CSS → JavaScript → Rust**.
+Un percorso pratico in italiano per costruire una base **frontend e backend**: HTML → CSS → JavaScript → TypeScript → HTTP e Node.js → SQL e PostgreSQL → applicazione completa → un framework frontend → Rust.
 Il sito è realizzato con VitePress nella cartella `project`.
 
 Sito: [learning-web-rust.pages.dev](https://learning-web-rust.pages.dev).
@@ -8,7 +8,7 @@ Inizia da [La prima pagina HTML](https://learning-web-rust.pages.dev/html/prima-
 
 ## Contenuti
 
-Sono disponibili sette lezioni HTML con esercizi, soluzioni e due esempi HTML apribili nel browser. CSS, JavaScript e Rust hanno una roadmap: le lezioni verranno aggiunte durante il percorso.
+Sono disponibili sette lezioni HTML con esercizi, soluzioni e due esempi HTML apribili nel browser. La [roadmap](https://learning-web-rust.pages.dev/percorso) definisce obiettivi, progetti e punti di controllo per le tappe successive: le relative lezioni verranno aggiunte durante il percorso.
 
 ## Sviluppo locale
 
@@ -73,6 +73,11 @@ project/
     ├── html/           # Lezioni ed esercizi
     ├── css/            # Prossima tappa
     ├── javascript/     # Prossima tappa
+    ├── typescript/     # Tipi dopo JavaScript
+    ├── backend/        # HTTP, API e Node.js
+    ├── database/       # SQL e PostgreSQL
+    ├── fullstack/      # Integrazione, sicurezza, test e deploy
+    ├── frontend/       # Framework dopo le basi
     ├── rust/           # Prossima tappa
     └── public/esempi/  # Documenti HTML autonomi
 ```
