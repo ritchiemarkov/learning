@@ -1,0 +1,8 @@
+node_modules/
+**/.vitepress/dist/
+**/.vitepress/cache/
+**/.wrangler/
+.env
+.env.*
+.dev.vars*
+.DS_Store

@@ -1,0 +1,27 @@
+{
+  "name": "learning",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs --host 127.0.0.1",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs --host 127.0.0.1",
+    "deploy": "npm run docs:build && wrangler pages deploy docs/.vitepress/dist --project-name learning-web-rust --branch main"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "wrangler": "4.149.0"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "overrides": {
+    "vitepress": {
+      "vite": "6.4.4"
+    }
+  }
+}
