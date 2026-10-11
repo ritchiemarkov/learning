@@ -3,6 +3,9 @@
 Un percorso pratico in italiano: **HTML → CSS → JavaScript → Rust**.
 Il sito è realizzato con VitePress nella cartella `project`.
 
+Sito: [learning-web-rust.pages.dev](https://learning-web-rust.pages.dev).
+Inizia da [La prima pagina HTML](https://learning-web-rust.pages.dev/html/prima-pagina).
+
 ## Contenuti
 
 Sono disponibili sette lezioni HTML con esercizi, soluzioni e due esempi HTML apribili nel browser. CSS, JavaScript e Rust hanno una roadmap: le lezioni verranno aggiunte durante il percorso.

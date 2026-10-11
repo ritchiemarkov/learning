@@ -2,5 +2,5 @@
   "$schema": "./node_modules/wrangler/config-schema.json",
   "name": "learning-web-rust",
   "pages_build_output_dir": "./docs/.vitepress/dist",
-  "compatibility_date": "2026-10-12"
+  "compatibility_date": "2026-10-11"
 }
