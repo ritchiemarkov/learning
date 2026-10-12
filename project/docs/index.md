@@ -21,9 +21,9 @@ features:
     link: /css/
     linkText: Guarda la prossima tappa
   - title: 03 / JavaScript
-    details: Aggiungeremo interazioni, ragionando su variabili, funzioni, eventi e dati.
+    details: "Il corso JavaScript.info in italiano: 175 capitoli sul linguaggio e sul browser, con esercizi e approfondimenti separati dalle basi."
     link: /javascript/
-    linkText: Guarda gli obiettivi
+    linkText: Apri il corso
   - title: 04 / TypeScript
     details: Dopo un progetto JavaScript, aggiungeremo tipi e controlli al codice. La stessa base ci accompagnerà nel browser e sul server.
     link: /typescript/

@@ -1,0 +1,139 @@
+---
+title: "Eventi: change, input, cut, copy, paste"
+description: "JavaScript.info in italiano: Eventi: change, input, cut, copy, paste"
+sourceTutorial: true
+prev: {"text": "Focusing: focus/blur", "link": "/javascript/tutorial/focus-blur"}
+next: {"text": "Form: eventi e metodi di submit", "link": "/javascript/tutorial/forms-submit"}
+---
+
+# Eventi: change, input, cut, copy, paste
+
+> **JavaScript.info · Ilya Kantor e contributori.** [Originale inglese](https://javascript.info/events-change-input) · [Edizione italiana](https://it.javascript.info/events-change-input) · [Fonti e licenza](/javascript/fonti).
+
+In questa sezione, affronteremo vari argomenti associati alle modifica dei dati.
+
+## Evento: change
+
+L'evento `change` viene scatenato quando si termina la modifica su un elemento.
+
+Per gli input di testo, ciò si verifica alla perdita del focus.
+
+Ad esempio, mentre scriviamo del testo nel campo di testo seguente -- l'evento non viene scaturito. Ma non appena spostiamo il focus su qualcos'altro, per esempio, clicchiamo su un pulsante -- verrà scatenato un evento `change`:
+
+```html
+<input type="text" onchange="alert(this.value)">
+<input type="button" value="Button">
+```
+
+Per altri elementi: `select`, `input type=checkbox/radio` viene scaturito subito dopo il cambio di selezione:
+
+```html
+<select onchange="alert(this.value)">
+  <option value="">Seleziona qualcosa</option>
+  <option value="1">Opzione 1</option>
+  <option value="2">Opzione 2</option>
+  <option value="3">Opzione 3</option>
+</select>
+```
+
+
+## Evento: input
+
+L'evento `input` viene scatenato dopo ogni modifica di un valore da parte dell'utente.
+
+Viene scaturito per qualunque valore modificato, e diversamente dagli eventi da tastiera, anche per azioni che non la coinvolgono direttamente: incollare qualcosa con il mouse o dettare un testo tramite riconoscimento vocale.
+
+Per esempio:
+
+```html
+<input type="text" id="input"> oninput: <span id="result"></span>
+<script>
+  input.oninput = function() {
+    result.innerHTML = input.value;
+  };
+</script>
+```
+
+Se vogliamo gestire ogni modifica di un `<input>` questo evento è la scelta migliore.
+
+Di contro, l'evento `input` non viene generato tramite input da tastiera e altre azioni che non coinvolgono modifiche dei valori, di conseguenza è esclusa la generazione dell'evento per azioni quali i tasti freccia `key:⇦` `key:⇨` mentre si è dentro l'input.
+
+
+::: tip Non possiamo prevenire nulla su `oninput`
+L'evento `input` avviene dopo che il valore viene modificato.
+
+Di conseguenza non possiamo usare `event.preventDefault()` -- sarebbe già troppo tardi, e non avrebbe alcun effetto.
+:::
+
+## Eventi: taglia, copia, incolla
+
+Questi eventi si scatenano nelle operazioni di taglia/copia/incolla di un valore.
+
+Appartengono alla classe [ClipboardEvent](https://www.w3.org/TR/clipboard-apis/#clipboard-event-interfaces) e forniscono un accesso ai dati che vengono copiati ed incollati.
+
+È anche previsto l'uso di `event.preventDefault()` per annullare l'azione, in modo che non venga copiato/incollato nulla.
+
+Ad esempio, il seguente codice previene tutti questi eventi, mostrando cosa stiamo provando di tagliare/copiare/incollare:
+
+```html
+<input type="text" id="input">
+<script>
+  input.onpaste = function(event) {
+    alert("paste: " + event.clipboardData.getData('text/plain'));
+    event.preventDefault();
+  };
+
+  input.oncut = input.oncopy = function(event) {
+    alert(event.type + '-' + document.getSelection());
+    event.preventDefault();
+  };
+</script>
+```
+
+Nota bene, è possibile copiare/incollare non soltanto testo, ma qualunque cosa. Per esempio possiamo copiare un file nel sistema operativo ed incollarlo nel documento.
+
+Questo perché `clipboardData` implementa l'interfaccia `DataTransfer`, usata comunemente per il drag'n'drop ed il copia/incolla. Va un pochino oltre i nostri scopi, ma puoi trovare i relativi metodi [nelle specifiche](https://html.spec.whatwg.org/multipage/dnd.html#the-datatransfer-interface).
+
+
+::: warning ClipboardAPI: restrizione per la sicurezza dell'utente
+La clipboard è una caratteristica "globale" a livello del sistema operativo. I browser quindi, per ragioni di sicurezza, consentono l'accesso in lettura/scrittura solo per certe azioni dell'utente, ad esempio nei gestori evento `onclick`.
+
+Inoltre è vietato generare eventi clipboard "personalizzati" tramite `dispatchEvent` in tutti i browser eccetto Firefox.
+:::
+
+## Riepilogo
+
+Eventi di modifica dati:
+
+| Evento | Descrizione | Speciali |
+|---------|----------|-------------|
+| `change`| È stato modificato un valore. | Per il testo viene generato alla perdita del focus. |
+| `input` | Per gli input di testo ad ogni modifica. | Viene generato immediatamente diversamente da `change`. |
+| `cut/copy/paste` | Azioni di taglia/copia/incolla. | L'azione può essere prevenuta. La proprietà `event.clipboardData` dà accesso in lettura/scrittura alla clipboard. |
+
+## Esercizi
+
+### 1 · Calcolo del deposito
+
+Create una interfaccia che permetta di inserire una somma di un deposito bancario e la percentuale, e che calcoli a quanto ammonteranno dopo un certo periodo di tempo.
+
+La demo:
+
+[Apri l’esempio nella fonte originale](https://it.javascript.info/events-change-input).
+
+Ogni modifica all'input dovrebbe essere processata immediatamente.
+
+La formula è:
+```js
+// initial: la somma iniziale di denaro
+// interest: ad esempio 0.05 significa 5% annualer
+// years: quanti anni attendere
+let result = Math.round(initial * (1 + interest * years));
+```
+
+::::: details Soluzione
+
+
+
+:::::
+

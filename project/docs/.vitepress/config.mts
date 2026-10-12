@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import javascriptSidebar from './javascript-sidebar.json'
 
 const html = [
   { text: 'Da dove iniziare', link: '/html/' },
@@ -17,11 +18,35 @@ export default defineConfig({
   description: 'Una base frontend e backend: HTML, CSS, JavaScript, TypeScript, Node.js, SQL e poi Rust. Lezioni pratiche in italiano.',
   cleanUrls: true,
   lastUpdated: true,
+  markdown: {
+    config(md) {
+      // Gli esempi importati sono documentazione: l'HTML grezzo non diventa un componente Vue.
+      const originalBlock = md.renderer.rules.html_block!
+      const originalInline = md.renderer.rules.html_inline!
+      md.renderer.rules.html_block = (tokens, idx, options, env, self) => {
+        if (env.relativePath?.startsWith('javascript/tutorial/') && !tokens[idx].meta?.isPermalinkSymbol) {
+          if (tokens[idx].content.trimStart().startsWith('<!--')) return ''
+          return '<pre v-pre><code>' + md.utils.escapeHtml(tokens[idx].content) + '</code></pre>'
+        }
+        return originalBlock(tokens, idx, options, env, self)
+      }
+      md.renderer.rules.html_inline = (tokens, idx, options, env, self) => {
+        if (env.relativePath?.startsWith('javascript/tutorial/') && !tokens[idx].meta?.isPermalinkSymbol) {
+          const content = tokens[idx].content
+          if (/^<\/?(?:u|sup|sub|br|em|strong|code)\s*\/?\s*>$/i.test(content)) return content
+          return md.utils.escapeHtml(content)
+        }
+        return originalInline(tokens, idx, options, env, self)
+      }
+    },
+  },
   head: [['link', { rel: 'icon', href: '/favicon.svg' }], ['meta', { name: 'theme-color', content: '#21715a' }]],
   themeConfig: {
     logo: '/favicon.svg',
-    nav: [{ text: 'Percorso', link: '/percorso' }, { text: 'HTML', link: '/html/' }, { text: 'Laboratorio', link: '/html/progetto' }],
-    sidebar: [
+    nav: [{ text: 'Percorso', link: '/percorso' }, { text: 'HTML', link: '/html/' }, { text: 'JavaScript', link: '/javascript/' }, { text: 'Laboratorio', link: '/html/progetto' }],
+    sidebar: {
+      '/javascript/': javascriptSidebar,
+      '/': [
       { text: 'Il percorso', items: [{ text: 'Roadmap frontend e backend', link: '/percorso' }] },
       { text: 'HTML · Inizia qui', items: html },
       { text: 'Le basi frontend', collapsed: true, items: [
@@ -38,7 +63,8 @@ export default defineConfig({
         { text: 'Un framework frontend', link: '/frontend/' },
         { text: 'Rust · Il prossimo linguaggio', link: '/rust/' },
       ] },
-    ],
+      ],
+    },
     search: { provider: 'local', options: { locales: { root: { translations: {
       button: { buttonText: 'Cerca', buttonAriaLabel: 'Cerca nelle lezioni' },
       modal: { displayDetails: 'Mostra dettagli', resetButtonTitle: 'Azzera ricerca', backButtonTitle: 'Chiudi ricerca', noResultsText: 'Nessun risultato per', footer: { selectText: 'seleziona', navigateText: 'naviga', closeText: 'chiudi' } },

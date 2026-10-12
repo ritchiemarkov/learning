@@ -2,7 +2,7 @@
 
 Il nostro obiettivo è saper costruire una piccola applicazione web completa: un'interfaccia nel browser, un server che gestisce le richieste e un database che conserva i dati. **Partiamo con HTML, CSS e JavaScript; aggiungiamo TypeScript, poi il backend. Rust viene dopo questa base.**
 
-Questa è una proposta di percorso: le tappe si adattano a ciò che impari, senza scadenze fisse. Le sette lezioni HTML sono già disponibili. Le altre sezioni descrivono gli obiettivi e i progetti delle lezioni da scrivere.
+Questa è una proposta di percorso: le tappe si adattano a ciò che impari, senza scadenze fisse. Sono disponibili le sette lezioni HTML e il [corso JavaScript.info in italiano](/javascript/), con 175 capitoli. CSS e le altre sezioni descrivono gli obiettivi e i progetti delle lezioni da scrivere.
 
 ## Frontend, backend e database
 
@@ -73,6 +73,8 @@ Rust rimane nel percorso: lo affrontiamo dopo aver capito che cosa fa un backend
 Questi sono punti di controllo, non esami. Se un punto è incerto, facciamo un esercizio mirato prima di aggiungere complessità.
 
 ## Come studiamo
+
+Per JavaScript seguiamo [JavaScript.info](/javascript/): prima linguaggio e browser, poi gli approfondimenti dell'[indice completo](/javascript/indice). La fonte è il tutorial di Ilya Kantor con la traduzione italiana della comunità; trovi [attribuzione e licenza](/javascript/fonti) nella sezione dedicata. Il nostro progetto applica queste lezioni a una lista di attività.
 
 Ogni lezione seguirà questo formato:
 

@@ -8,7 +8,24 @@ Inizia da [La prima pagina HTML](https://learning-web-rust.pages.dev/html/prima-
 
 ## Contenuti
 
-Sono disponibili sette lezioni HTML con esercizi, soluzioni e due esempi HTML apribili nel browser. La [roadmap](https://learning-web-rust.pages.dev/percorso) definisce obiettivi, progetti e punti di controllo per le tappe successive: le relative lezioni verranno aggiunte durante il percorso.
+Sono disponibili sette lezioni HTML e [175 articoli JavaScript.info in italiano](https://learning-web-rust.pages.dev/javascript/indice), con 252 esercizi e le soluzioni disponibili. La [roadmap](https://learning-web-rust.pages.dev/percorso) definisce obiettivi, progetti e punti di controllo per le tappe successive.
+
+I contenuti JavaScript sono di Ilya Kantor e dei contributori del tutorial e dell'edizione italiana. Attribuzione, modifiche e licenze sono in [`project/docs/javascript/fonti.md`](project/docs/javascript/fonti.md). I contenuti importati sono destinati all'uso non commerciale secondo le condizioni delle fonti.
+
+## Importazione di JavaScript.info
+
+Lo snapshot usa i repository ufficiali inglese e italiano, con quattro traduzioni/adattamenti aggiunti in `project/sources/javascript-info/translations`. Le revisioni delle fonti sono documentate nella pagina Fonti e licenza. Non è stata eseguita una revisione tecnica completa di tutti gli articoli italiani.
+
+Per rigenerare i capitoli da checkout locali delle medesime revisioni:
+
+```bash
+python project/scripts/import-javascript-info.py \
+  --italian /percorso/it.javascript.info \
+  --english /percorso/en.javascript.info
+npm run docs:build --prefix project
+```
+
+Il manifest registra le fonti dei capitoli e l'impronta dei testi. I blocchi di codice rimangono esempi da copiare; le demo che richiedono il renderer di JavaScript.info rimandano alla fonte originale.
 
 ## Sviluppo locale
 

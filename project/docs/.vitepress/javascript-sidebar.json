@@ -1,0 +1,899 @@
+[
+  {
+    "text": "JavaScript",
+    "items": [
+      {
+        "text": "Come seguire il corso",
+        "link": "/javascript/"
+      },
+      {
+        "text": "Tutti i capitoli",
+        "link": "/javascript/indice"
+      },
+      {
+        "text": "Fonti e licenza",
+        "link": "/javascript/fonti"
+      }
+    ]
+  },
+  {
+    "text": "Parte 1 · Il linguaggio",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Introduzione",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Introduzione a JavaScript",
+            "link": "/javascript/tutorial/intro"
+          },
+          {
+            "text": "Manuali e Specifiche",
+            "link": "/javascript/tutorial/manuals-specifications"
+          },
+          {
+            "text": "Code editor",
+            "link": "/javascript/tutorial/code-editors"
+          },
+          {
+            "text": "Developer console",
+            "link": "/javascript/tutorial/devtools"
+          }
+        ]
+      },
+      {
+        "text": "Fondamenti",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Hello, world!",
+            "link": "/javascript/tutorial/hello-world"
+          },
+          {
+            "text": "Struttura del codice",
+            "link": "/javascript/tutorial/structure"
+          },
+          {
+            "text": "Le tecniche moderne, \"use strict\"",
+            "link": "/javascript/tutorial/strict-mode"
+          },
+          {
+            "text": "Variabili",
+            "link": "/javascript/tutorial/variables"
+          },
+          {
+            "text": "Tipi di dato",
+            "link": "/javascript/tutorial/types"
+          },
+          {
+            "text": "Interazioni: alert, prompt, confirm",
+            "link": "/javascript/tutorial/alert-prompt-confirm"
+          },
+          {
+            "text": "Conversione di tipi",
+            "link": "/javascript/tutorial/type-conversions"
+          },
+          {
+            "text": "Operatori di base",
+            "link": "/javascript/tutorial/operators"
+          },
+          {
+            "text": "Confronti",
+            "link": "/javascript/tutorial/comparison"
+          },
+          {
+            "text": "Operatori condizionali: if, '?'",
+            "link": "/javascript/tutorial/ifelse"
+          },
+          {
+            "text": "Operatori logici",
+            "link": "/javascript/tutorial/logical-operators"
+          },
+          {
+            "text": "Nullish coalescing operator '??'",
+            "link": "/javascript/tutorial/nullish-coalescing-operator"
+          },
+          {
+            "text": "Cicli: while e for",
+            "link": "/javascript/tutorial/while-for"
+          },
+          {
+            "text": "L'istruzione \"switch\"",
+            "link": "/javascript/tutorial/switch"
+          },
+          {
+            "text": "Funzioni",
+            "link": "/javascript/tutorial/function-basics"
+          },
+          {
+            "text": "Function expression",
+            "link": "/javascript/tutorial/function-expressions"
+          },
+          {
+            "text": "Arrow functions, le basi",
+            "link": "/javascript/tutorial/arrow-functions-basics"
+          },
+          {
+            "text": "Specialità di JavaScript",
+            "link": "/javascript/tutorial/javascript-specials"
+          }
+        ]
+      },
+      {
+        "text": "Qualità del codice",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Debugging in the browser",
+            "link": "/javascript/tutorial/debugging-chrome"
+          },
+          {
+            "text": "Stile di programmazione",
+            "link": "/javascript/tutorial/coding-style"
+          },
+          {
+            "text": "Commenti",
+            "link": "/javascript/tutorial/comments"
+          },
+          {
+            "text": "Codice ninja",
+            "link": "/javascript/tutorial/ninja-code"
+          },
+          {
+            "text": "Test automatici con Mocha",
+            "link": "/javascript/tutorial/testing-mocha"
+          },
+          {
+            "text": "Polyfills e transpilers",
+            "link": "/javascript/tutorial/polyfills"
+          }
+        ]
+      },
+      {
+        "text": "Oggetti: le basi",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Oggetti",
+            "link": "/javascript/tutorial/object"
+          },
+          {
+            "text": "Oggetti: riferimento e copia",
+            "link": "/javascript/tutorial/object-copy"
+          },
+          {
+            "text": "Garbage collection (\"Spazzatura\")",
+            "link": "/javascript/tutorial/garbage-collection"
+          },
+          {
+            "text": "Metodi degli oggetti,\"this\"",
+            "link": "/javascript/tutorial/object-methods"
+          },
+          {
+            "text": "Costruttore, operatore \"new\"",
+            "link": "/javascript/tutorial/constructor-new"
+          },
+          {
+            "text": "Concatenamento opzionale '?.'",
+            "link": "/javascript/tutorial/optional-chaining"
+          },
+          {
+            "text": "Il tipo Symbol",
+            "link": "/javascript/tutorial/symbol"
+          },
+          {
+            "text": "Conversione da oggetto a primitivi",
+            "link": "/javascript/tutorial/object-toprimitive"
+          }
+        ]
+      },
+      {
+        "text": "Tipi di dato e strutture",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Metodi dei tipi primitivi",
+            "link": "/javascript/tutorial/primitives-methods"
+          },
+          {
+            "text": "Numeri",
+            "link": "/javascript/tutorial/number"
+          },
+          {
+            "text": "Stringhe",
+            "link": "/javascript/tutorial/string"
+          },
+          {
+            "text": "Array",
+            "link": "/javascript/tutorial/array"
+          },
+          {
+            "text": "Metodi per gli array",
+            "link": "/javascript/tutorial/array-methods"
+          },
+          {
+            "text": "Iteratori",
+            "link": "/javascript/tutorial/iterable"
+          },
+          {
+            "text": "Map e Set",
+            "link": "/javascript/tutorial/map-set"
+          },
+          {
+            "text": "WeakMap e WeakSet",
+            "link": "/javascript/tutorial/weakmap-weakset"
+          },
+          {
+            "text": "Object.keys, values, entries",
+            "link": "/javascript/tutorial/keys-values-entries"
+          },
+          {
+            "text": "Assegnamento di destrutturazione",
+            "link": "/javascript/tutorial/destructuring-assignment"
+          },
+          {
+            "text": "Date e time",
+            "link": "/javascript/tutorial/date"
+          },
+          {
+            "text": "Metodi JSON, toJSON",
+            "link": "/javascript/tutorial/json"
+          }
+        ]
+      },
+      {
+        "text": "Funzioni avanzate",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Ricorsione e pila",
+            "link": "/javascript/tutorial/recursion"
+          },
+          {
+            "text": "Parametri resto e operatore di espansione",
+            "link": "/javascript/tutorial/rest-parameters-spread"
+          },
+          {
+            "text": "Variable scope, closure",
+            "link": "/javascript/tutorial/closure"
+          },
+          {
+            "text": "Il vecchio \"var\"",
+            "link": "/javascript/tutorial/var"
+          },
+          {
+            "text": "Oggetto globale",
+            "link": "/javascript/tutorial/global-object"
+          },
+          {
+            "text": "Oggetto funzione, NFE",
+            "link": "/javascript/tutorial/function-object"
+          },
+          {
+            "text": "La sintassi \"new Function\"",
+            "link": "/javascript/tutorial/new-function"
+          },
+          {
+            "text": "Pianificazione: setTimeout e setInterval",
+            "link": "/javascript/tutorial/settimeout-setinterval"
+          },
+          {
+            "text": "*Decorators* e forwarding, call/apply",
+            "link": "/javascript/tutorial/call-apply-decorators"
+          },
+          {
+            "text": "Function binding",
+            "link": "/javascript/tutorial/bind"
+          },
+          {
+            "text": "Arrow functions rivisitate",
+            "link": "/javascript/tutorial/arrow-functions"
+          }
+        ]
+      },
+      {
+        "text": "Proprietà degli oggetti",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Attributi e descrittori di proprietà",
+            "link": "/javascript/tutorial/property-descriptors"
+          },
+          {
+            "text": "Proprietà getters e setters",
+            "link": "/javascript/tutorial/property-accessors"
+          }
+        ]
+      },
+      {
+        "text": "Prototipi ed ereditarietà",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Prototypal inheritance",
+            "link": "/javascript/tutorial/prototype-inheritance"
+          },
+          {
+            "text": "F.prototype",
+            "link": "/javascript/tutorial/function-prototype"
+          },
+          {
+            "text": "Native prototypes",
+            "link": "/javascript/tutorial/native-prototypes"
+          },
+          {
+            "text": "Metodi di prototype, objects senza __proto__",
+            "link": "/javascript/tutorial/prototype-methods"
+          }
+        ]
+      },
+      {
+        "text": "Classi",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Sintassi base delle classi",
+            "link": "/javascript/tutorial/class"
+          },
+          {
+            "text": "Ereditarietà delle classi",
+            "link": "/javascript/tutorial/class-inheritance"
+          },
+          {
+            "text": "Proprietà e metodi statici",
+            "link": "/javascript/tutorial/static-properties-methods"
+          },
+          {
+            "text": "Proprietà e metodi privati e protetti",
+            "link": "/javascript/tutorial/private-protected-properties-methods"
+          },
+          {
+            "text": "Estendere le classi built-in",
+            "link": "/javascript/tutorial/extend-natives"
+          },
+          {
+            "text": "Verifica delle classi: \"instanceof\"",
+            "link": "/javascript/tutorial/instanceof"
+          },
+          {
+            "text": "Mixins",
+            "link": "/javascript/tutorial/mixins"
+          }
+        ]
+      },
+      {
+        "text": "Errori",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Gestione degli errori, \"try...catch\"",
+            "link": "/javascript/tutorial/try-catch"
+          },
+          {
+            "text": "Errori personalizzati, estendere la classe Error",
+            "link": "/javascript/tutorial/custom-errors"
+          }
+        ]
+      },
+      {
+        "text": "Promise e async/await",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Introduzione: callbacks",
+            "link": "/javascript/tutorial/callbacks"
+          },
+          {
+            "text": "Promise",
+            "link": "/javascript/tutorial/promise-basics"
+          },
+          {
+            "text": "Concatenamento di promise (promise chaining)",
+            "link": "/javascript/tutorial/promise-chaining"
+          },
+          {
+            "text": "Gestione degli errori con le promise",
+            "link": "/javascript/tutorial/promise-error-handling"
+          },
+          {
+            "text": "Promise API",
+            "link": "/javascript/tutorial/promise-api"
+          },
+          {
+            "text": "Promisification",
+            "link": "/javascript/tutorial/promisify"
+          },
+          {
+            "text": "Microtasks",
+            "link": "/javascript/tutorial/microtask-queue"
+          },
+          {
+            "text": "Async/await",
+            "link": "/javascript/tutorial/async-await"
+          }
+        ]
+      },
+      {
+        "text": "Generatori e iterazione avanzata",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "I generatori",
+            "link": "/javascript/tutorial/generators"
+          },
+          {
+            "text": "Iteratori e generatori asincroni",
+            "link": "/javascript/tutorial/async-iterators-generators"
+          }
+        ]
+      },
+      {
+        "text": "Moduli",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Moduli, introduzione",
+            "link": "/javascript/tutorial/modules-intro"
+          },
+          {
+            "text": "Export e Import",
+            "link": "/javascript/tutorial/import-export"
+          },
+          {
+            "text": "Dynamic imports",
+            "link": "/javascript/tutorial/modules-dynamic-imports"
+          }
+        ]
+      },
+      {
+        "text": "Approfondimenti sul linguaggio",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Proxy e Reflect",
+            "link": "/javascript/tutorial/proxy"
+          },
+          {
+            "text": "Eval: eseguire una stringa di codice",
+            "link": "/javascript/tutorial/eval"
+          },
+          {
+            "text": "Currying",
+            "link": "/javascript/tutorial/currying-partials"
+          },
+          {
+            "text": "Il tipo Reference",
+            "link": "/javascript/tutorial/reference-type"
+          },
+          {
+            "text": "BigInt",
+            "link": "/javascript/tutorial/bigint"
+          },
+          {
+            "text": "Unicode e rappresentazione delle stringhe",
+            "link": "/javascript/tutorial/unicode"
+          },
+          {
+            "text": "WeakRef e FinalizationRegistry",
+            "link": "/javascript/tutorial/weakref-finalizationregistry"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Parte 2 · Browser e DOM",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Documento e DOM",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Il Browser come ambiente, specifiche",
+            "link": "/javascript/tutorial/browser-environment"
+          },
+          {
+            "text": "Alberatura DOM",
+            "link": "/javascript/tutorial/dom-nodes"
+          },
+          {
+            "text": "Percorrere il DOM",
+            "link": "/javascript/tutorial/dom-navigation"
+          },
+          {
+            "text": "Ricerca: getElement*, querySelector*",
+            "link": "/javascript/tutorial/searching-elements-dom"
+          },
+          {
+            "text": "Le proprietà del nodo: tipo, tag e contenuto",
+            "link": "/javascript/tutorial/basic-dom-node-properties"
+          },
+          {
+            "text": "Attributi e proprietà",
+            "link": "/javascript/tutorial/dom-attributes-and-properties"
+          },
+          {
+            "text": "Modificare il documento",
+            "link": "/javascript/tutorial/modifying-document"
+          },
+          {
+            "text": "Stili e classi",
+            "link": "/javascript/tutorial/styles-and-classes"
+          },
+          {
+            "text": "Dimensioni dell'elemento e barra di scorrimento",
+            "link": "/javascript/tutorial/size-and-scroll"
+          },
+          {
+            "text": "Dimensioni e scorrimento della finestra del browser",
+            "link": "/javascript/tutorial/size-and-scroll-window"
+          },
+          {
+            "text": "Coordinate",
+            "link": "/javascript/tutorial/coordinates"
+          }
+        ]
+      },
+      {
+        "text": "Eventi",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Introduzione agli eventi del browser",
+            "link": "/javascript/tutorial/introduction-browser-events"
+          },
+          {
+            "text": "Bubbling e capturing",
+            "link": "/javascript/tutorial/bubbling-and-capturing"
+          },
+          {
+            "text": "Event delegation",
+            "link": "/javascript/tutorial/event-delegation"
+          },
+          {
+            "text": "Azioni predefinite del browser",
+            "link": "/javascript/tutorial/default-browser-action"
+          },
+          {
+            "text": "Dispatching di eventi personalizzati",
+            "link": "/javascript/tutorial/dispatch-events"
+          }
+        ]
+      },
+      {
+        "text": "Eventi delle interfacce",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Eventi del mouse",
+            "link": "/javascript/tutorial/mouse-events-basics"
+          },
+          {
+            "text": "Movimenti del mouse: mouseover/out, mouseenter/leave",
+            "link": "/javascript/tutorial/mousemove-mouseover-mouseout-mouseenter-mouseleave"
+          },
+          {
+            "text": "Drag'n'Drop con gli eventi del mouse",
+            "link": "/javascript/tutorial/mouse-drag-and-drop"
+          },
+          {
+            "text": "Eventi del puntatore",
+            "link": "/javascript/tutorial/pointer-events"
+          },
+          {
+            "text": "Tastiera: keydown e keyup",
+            "link": "/javascript/tutorial/keyboard-events"
+          },
+          {
+            "text": "Scrolling",
+            "link": "/javascript/tutorial/onscroll"
+          }
+        ]
+      },
+      {
+        "text": "Form e controlli",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Proprietà dei form e metodi",
+            "link": "/javascript/tutorial/form-elements"
+          },
+          {
+            "text": "Focusing: focus/blur",
+            "link": "/javascript/tutorial/focus-blur"
+          },
+          {
+            "text": "Eventi: change, input, cut, copy, paste",
+            "link": "/javascript/tutorial/events-change-input"
+          },
+          {
+            "text": "Form: eventi e metodi di submit",
+            "link": "/javascript/tutorial/forms-submit"
+          }
+        ]
+      },
+      {
+        "text": "Caricamento delle risorse",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Page: DOMContentLoaded, load, beforeunload, unload",
+            "link": "/javascript/tutorial/onload-ondomcontentloaded"
+          },
+          {
+            "text": "Scripts: async, defer",
+            "link": "/javascript/tutorial/script-async-defer"
+          },
+          {
+            "text": "Caricamento delle risorse: onload e onerror",
+            "link": "/javascript/tutorial/onload-onerror"
+          }
+        ]
+      },
+      {
+        "text": "Approfondimenti sul browser",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Mutation observer",
+            "link": "/javascript/tutorial/mutation-observer"
+          },
+          {
+            "text": "Selection e Range",
+            "link": "/javascript/tutorial/selection-range"
+          },
+          {
+            "text": "Event loop: microtasks e macrotasks",
+            "link": "/javascript/tutorial/event-loop"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "Parte 3 · Argomenti aggiuntivi",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Finestre e frame",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Metodi di popups e window",
+            "link": "/javascript/tutorial/popup-windows"
+          },
+          {
+            "text": "Comunicazione cross-window",
+            "link": "/javascript/tutorial/cross-window-communication"
+          },
+          {
+            "text": "L'attacco clickjacking",
+            "link": "/javascript/tutorial/clickjacking"
+          }
+        ]
+      },
+      {
+        "text": "Dati binari e file",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "ArrayBuffer, array binari",
+            "link": "/javascript/tutorial/arraybuffer-binary-arrays"
+          },
+          {
+            "text": "TextDecoder e TextEncoder",
+            "link": "/javascript/tutorial/text-decoder"
+          },
+          {
+            "text": "Blob",
+            "link": "/javascript/tutorial/blob"
+          },
+          {
+            "text": "File e FileReader",
+            "link": "/javascript/tutorial/file"
+          }
+        ]
+      },
+      {
+        "text": "Richieste di rete",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Fetch",
+            "link": "/javascript/tutorial/fetch"
+          },
+          {
+            "text": "FormData",
+            "link": "/javascript/tutorial/formdata"
+          },
+          {
+            "text": "Fetch: Download progress",
+            "link": "/javascript/tutorial/fetch-progress"
+          },
+          {
+            "text": "Fetch: Abort",
+            "link": "/javascript/tutorial/fetch-abort"
+          },
+          {
+            "text": "Fetch: Cross-Origin Requests",
+            "link": "/javascript/tutorial/fetch-crossorigin"
+          },
+          {
+            "text": "API Fetch",
+            "link": "/javascript/tutorial/fetch-api"
+          },
+          {
+            "text": "URL objects",
+            "link": "/javascript/tutorial/url"
+          },
+          {
+            "text": "XMLHttpRequest",
+            "link": "/javascript/tutorial/xmlhttprequest"
+          },
+          {
+            "text": "Upload del file ripristinabile",
+            "link": "/javascript/tutorial/resume-upload"
+          },
+          {
+            "text": "Long polling",
+            "link": "/javascript/tutorial/long-polling"
+          },
+          {
+            "text": "WebSocket",
+            "link": "/javascript/tutorial/websocket"
+          },
+          {
+            "text": "Server Sent Events",
+            "link": "/javascript/tutorial/server-sent-events"
+          }
+        ]
+      },
+      {
+        "text": "Memorizzazione nel browser",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Cookies, document.cookie",
+            "link": "/javascript/tutorial/cookie"
+          },
+          {
+            "text": "LocalStorage, sessionStorage",
+            "link": "/javascript/tutorial/localstorage"
+          },
+          {
+            "text": "IndexedDB",
+            "link": "/javascript/tutorial/indexeddb"
+          }
+        ]
+      },
+      {
+        "text": "Animazione",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Curve di Bezier",
+            "link": "/javascript/tutorial/bezier-curve"
+          },
+          {
+            "text": "Animazioni CSS",
+            "link": "/javascript/tutorial/css-animations"
+          },
+          {
+            "text": "Animazioni JavaScript",
+            "link": "/javascript/tutorial/js-animation"
+          }
+        ]
+      },
+      {
+        "text": "Web Components",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "In alto, nell'orbita terrestre",
+            "link": "/javascript/tutorial/webcomponents-intro"
+          },
+          {
+            "text": "Elementi personalizzati",
+            "link": "/javascript/tutorial/custom-elements"
+          },
+          {
+            "text": "Shadow DOM",
+            "link": "/javascript/tutorial/shadow-dom"
+          },
+          {
+            "text": "Elemento Template",
+            "link": "/javascript/tutorial/template-element"
+          },
+          {
+            "text": "Shadow DOM slots, composition",
+            "link": "/javascript/tutorial/slots-composition"
+          },
+          {
+            "text": "Shadow DOM styling",
+            "link": "/javascript/tutorial/shadow-dom-style"
+          },
+          {
+            "text": "Shadow DOM ed eventi",
+            "link": "/javascript/tutorial/shadow-dom-events"
+          }
+        ]
+      },
+      {
+        "text": "Espressioni regolari",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Pattern e flag",
+            "link": "/javascript/tutorial/regexp-introduction"
+          },
+          {
+            "text": "Classi di caratteri",
+            "link": "/javascript/tutorial/regexp-character-classes"
+          },
+          {
+            "text": "Unicode: flag \"u\"",
+            "link": "/javascript/tutorial/regexp-unicode"
+          },
+          {
+            "text": "Inizio stringa ^ e fine $",
+            "link": "/javascript/tutorial/regexp-anchors"
+          },
+          {
+            "text": "Modo multilinea, flag \"m\"",
+            "link": "/javascript/tutorial/regexp-multiline-mode"
+          },
+          {
+            "text": "Confine di parola: \\b",
+            "link": "/javascript/tutorial/regexp-boundary"
+          },
+          {
+            "text": "Escaping, caratteri speciali",
+            "link": "/javascript/tutorial/regexp-escaping"
+          },
+          {
+            "text": "Insiemi e intervalli [...]",
+            "link": "/javascript/tutorial/regexp-character-sets-and-ranges"
+          },
+          {
+            "text": "Quantificatori +, *, ? and",
+            "link": "/javascript/tutorial/regexp-quantifiers"
+          },
+          {
+            "text": "Modalità greedy e lazy dei quantificatori",
+            "link": "/javascript/tutorial/regexp-greedy-and-lazy"
+          },
+          {
+            "text": "I gruppi di acquisizione (capturing group)",
+            "link": "/javascript/tutorial/regexp-groups"
+          },
+          {
+            "text": "Riferimenti all'indietro (backreference) nei pattern: \\N e \\kname",
+            "link": "/javascript/tutorial/regexp-backreferences"
+          },
+          {
+            "text": "Alternanza (OR) |",
+            "link": "/javascript/tutorial/regexp-alternation"
+          },
+          {
+            "text": "Lookahead e lookbehind",
+            "link": "/javascript/tutorial/regexp-lookahead-lookbehind"
+          },
+          {
+            "text": "Backtracking catastrofico",
+            "link": "/javascript/tutorial/regexp-catastrophic-backtracking"
+          },
+          {
+            "text": "Sticky flag \"y\", ricerca della posizione",
+            "link": "/javascript/tutorial/regexp-sticky"
+          },
+          {
+            "text": "Metodi di RegExp e String",
+            "link": "/javascript/tutorial/regexp-methods"
+          }
+        ]
+      }
+    ]
+  }
+]
