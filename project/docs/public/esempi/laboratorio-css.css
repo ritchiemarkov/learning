@@ -1,0 +1,97 @@
+/* Soluzione autonoma del laboratorio CSS Learning. */
+@layer base, layout, componenti, preferenze;
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --testo: #17382d;
+    --secondario: #52675d;
+    --accento: #17634d;
+    --azione: #17634d;
+    --link: #155b8a;
+    --sfondo: #f4f8f5;
+    --superficie: #fff;
+    --bordo: #b9ccc3;
+    --controllo: #647d70;
+    --focus: #245b8a;
+    --spazio: 1rem;
+  }
+  *, *::before, *::after { box-sizing: border-box; }
+  body { margin: 0; font: 1rem/1.6 system-ui, sans-serif; color: var(--testo); background: var(--sfondo); }
+  h1, h2, h3 { line-height: 1.2; margin-block: 0 1rem; }
+  h1 { font-size: clamp(2rem, 1.5rem + 2vw, 3.5rem); }
+  h2 { font-size: 1.75rem; }
+  p { margin-block: 0 1rem; }
+  a { color: var(--link); text-underline-offset: 0.2em; }
+  button, input, select, textarea { font: inherit; }
+  img, video { max-inline-size: 100%; block-size: auto; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; }
+  :target { scroll-margin-block-start: 1rem; }
+}
+
+@layer layout {
+  .contenitore { inline-size: min(100% - 2rem, 70rem); margin-inline: auto; }
+  header, main, footer { padding-block: 2rem; }
+  main { display: grid; gap: 3rem; }
+  .prosa { max-inline-size: 65ch; overflow-wrap: anywhere; }
+  nav ul { display: flex; flex-wrap: wrap; gap: 0.5rem 1.5rem; padding-inline-start: 1.5rem; }
+  .schede { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); gap: var(--spazio); }
+  .scheda { min-inline-size: 0; display: flex; flex-direction: column; }
+  .scheda .azione { margin-block-start: auto; align-self: start; }
+  .campi { display: grid; gap: 1rem; }
+  .tabella-scroll { overflow: auto; }
+  @media (min-width: 42rem) { .campi { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+}
+
+@layer componenti {
+  .salta { display: inline-block; margin: 0.5rem 1rem; }
+  header { border-block-end: 1px solid var(--bordo); }
+  .sopratitolo { color: var(--accento); font-weight: 700; }
+  .secondario { color: var(--secondario); }
+  .scheda, form, details { background: var(--superficie); border: 1px solid var(--bordo); border-radius: 0.75rem; padding: 1.5rem; }
+  .scheda { box-shadow: 0 0.4rem 1rem rgb(23 56 45 / 0.06); }
+  .azione, button { border: 1px solid var(--azione); border-radius: 0.5rem; padding: 0.6rem 1rem; background: var(--azione); color: white; font-weight: 600; }
+  .azione { display: inline-block; text-decoration: none; }
+  .azione:hover, button:hover { background: #174f3e; }
+  button { cursor: pointer; }
+  table { inline-size: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+  caption { text-align: start; font-weight: 600; margin-block-end: 0.75rem; }
+  th, td { padding: 0.75rem; text-align: start; border-block-end: 1px solid var(--bordo); }
+  label { display: block; margin-block-end: 0.3rem; font-weight: 600; }
+  input:not([type="radio"]):not([type="checkbox"]), select, textarea {
+    inline-size: 100%; min-inline-size: 0; color: var(--testo); background: var(--superficie);
+    border: 1px solid var(--controllo); border-radius: 0.35rem; padding: 0.65rem;
+  }
+  textarea { resize: vertical; }
+  fieldset { margin-block: 1rem; min-inline-size: 0; border: 1px solid var(--controllo); border-radius: 0.35rem; }
+  fieldset label { display: flex; gap: 0.5rem; align-items: baseline; font-weight: 400; }
+  input[type="radio"], input[type="checkbox"] { accent-color: var(--azione); }
+  .avviso { padding: 1rem; border-inline-start: 0.25rem solid var(--accento); }
+  details + details { margin-block-start: 0.75rem; }
+  summary { font-weight: 600; cursor: pointer; }
+  details[open] summary { margin-block-end: 0.75rem; }
+  footer { margin-block-start: 2rem; border-block-start: 1px solid var(--bordo); }
+  address { font-style: normal; overflow-wrap: anywhere; }
+}
+
+@layer preferenze {
+  @media (prefers-color-scheme: dark) {
+    :root { color-scheme: dark; --testo: #edf5ef; --secondario: #bdcdc1; --accento: #95dfbc; --link: #8dc9fa; --sfondo: #101d17; --superficie: #192b22; --bordo: #678075; --controllo: #a2b9ac; --focus: #8dc9fa; }
+  }
+  @media (forced-colors: active) {
+    .scheda, form, details { border-color: CanvasText; box-shadow: none; }
+    .azione, button { border-color: ButtonText; }
+    :focus-visible { outline-color: Highlight; }
+  }
+  /* La soluzione non richiede movimento: reduced motion mantiene la stessa funzione. */
+  @media print {
+    nav, .salta, .azione, form { display: none; }
+    body { color: black; background: white; }
+    .contenitore { inline-size: 100%; }
+    .schede { display: block; }
+    .scheda, details { color: black; background: white; box-shadow: none; break-inside: avoid; margin-block-end: 1rem; }
+    header, main, footer { padding-block: 1rem; }
+    .secondario, .sopratitolo, a { color: black; }
+  }
+}
+@page { margin: 18mm; }

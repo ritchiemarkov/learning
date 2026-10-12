@@ -2,7 +2,7 @@
 
 **Obiettivo:** costruire una pagina senza copiare un documento già completo. Dedica circa 45 minuti, anche divisi in più sessioni.
 
-## La consegna
+## Esercizio · La consegna
 
 Crea `profilo.html` con:
 
@@ -83,3 +83,5 @@ Puoi verificare il file con il [validatore HTML del W3C](https://validator.w3.or
 ## Racconta ciò che hai costruito
 
 Sai spiegare perché hai usato `<nav>`, perché «Come studio» usa una lista ordinata e quale differenza c'è fra `<title>` e `<h1>`? Se sì, abbiamo una buona base per [iniziare CSS](/css/).
+
+Fonti: [Nu HTML Checker](https://validator.w3.org/nu/).

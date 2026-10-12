@@ -71,3 +71,5 @@ Nel tuo `index.html`, aggiungi la sezione «I miei interessi» con una lista di 
 :::
 
 Controlla: se cambi l'ordine degli interessi, il significato rimane lo stesso? E se cambi l'ordine dei passaggi?
+
+Fonti: [WHATWG · Raggruppare contenuti](https://html.spec.whatwg.org/multipage/grouping-content.html).

@@ -37,7 +37,7 @@ Salva il file e aprilo con il browser, per esempio con un doppio clic. Dovresti 
 
 `<title>` e `<h1>` hanno ruoli diversi: il primo compare nella scheda, il secondo nel contenuto.
 
-## Prova subito
+## Esercizio · Prova subito
 
 1. Cambia `Ciao, mondo!` con il tuo nome.
 2. Aggiungi un secondo paragrafo con un tuo interesse.
@@ -71,3 +71,5 @@ I contenuti visibili sono nel `<body>`. La lingua si indica con `lang` sull'elem
 :::
 
 Se la pagina non cambia, controlla di aver salvato il file e ricaricato la scheda giusta.
+
+Fonti: [WHATWG · Struttura e metadati](https://html.spec.whatwg.org/multipage/semantics.html).

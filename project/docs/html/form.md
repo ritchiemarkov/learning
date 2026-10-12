@@ -75,3 +75,5 @@ Inserisci il `fieldset` dell'esempio prima del pulsante, poi aggiungi:
 ```
 Una casella non selezionata non invia il proprio valore. Le opzioni radio inviano il valore di quella selezionata.
 :::
+
+Fonti: [WAI · Form accessibili](https://www.w3.org/WAI/tutorials/forms/).

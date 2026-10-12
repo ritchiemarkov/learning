@@ -1,0 +1,212 @@
+[
+  {
+    "text": "CSS · Il percorso",
+    "items": [
+      {
+        "text": "Da dove iniziare",
+        "link": "/css/"
+      },
+      {
+        "text": "Copertura del percorso",
+        "link": "/css/copertura"
+      }
+    ]
+  },
+  {
+    "text": "Basi · Fondamenti",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "01 · Il primo foglio di stile",
+        "link": "/css/primo-stile"
+      },
+      {
+        "text": "02 · Selettori e combinatori",
+        "link": "/css/selettori"
+      },
+      {
+        "text": "03 · Cascata, specificità ed ereditarietà",
+        "link": "/css/cascata"
+      },
+      {
+        "text": "04 · Box model e dimensioni",
+        "link": "/css/box-model"
+      },
+      {
+        "text": "05 · Unità, valori e funzioni di base",
+        "link": "/css/unita-funzioni"
+      },
+      {
+        "text": "06 · Colori, sfondi e bordi",
+        "link": "/css/colori-bordi"
+      },
+      {
+        "text": "07 · Testo e tipografia leggibile",
+        "link": "/css/tipografia"
+      }
+    ]
+  },
+  {
+    "text": "Basi · Layout e progetto",
+    "collapsed": false,
+    "items": [
+      {
+        "text": "08 · Flusso, display e overflow",
+        "link": "/css/flusso-display"
+      },
+      {
+        "text": "09 · Flexbox",
+        "link": "/css/flexbox"
+      },
+      {
+        "text": "10 · Grid",
+        "link": "/css/grid"
+      },
+      {
+        "text": "11 · Responsive design e media query",
+        "link": "/css/responsive"
+      },
+      {
+        "text": "12 · Spazi e proprietà logiche",
+        "link": "/css/spazi-logici"
+      },
+      {
+        "text": "13 · Stati, focus e puntatori",
+        "link": "/css/stati-focus"
+      },
+      {
+        "text": "14 · Immagini, form, tabelle e liste",
+        "link": "/css/contenuti-controlli"
+      },
+      {
+        "text": "15 · Progetto delle basi CSS",
+        "link": "/css/progetto-basi"
+      }
+    ]
+  },
+  {
+    "text": "Approfondimenti · Componenti e layout",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "16 · Selettori avanzati, nesting e scope",
+        "link": "/css/selettori-avanzati"
+      },
+      {
+        "text": "17 · Layer e controllo della cascata",
+        "link": "/css/layer-cascata"
+      },
+      {
+        "text": "18 · Custom properties e property",
+        "link": "/css/variabili"
+      },
+      {
+        "text": "19 · Font web e tipografia avanzata",
+        "link": "/css/tipografia-avanzata"
+      },
+      {
+        "text": "20 · Sfondi, gradienti, bordi e ombre",
+        "link": "/css/sfondi-effetti"
+      },
+      {
+        "text": "21 · Posizionamento, stacking e top layer",
+        "link": "/css/posizionamento"
+      },
+      {
+        "text": "22 · Grid, subgrid e allineamento avanzato",
+        "link": "/css/layout-avanzato"
+      },
+      {
+        "text": "23 · Container query e componenti responsive",
+        "link": "/css/container-query"
+      }
+    ]
+  },
+  {
+    "text": "Approfondimenti · Effetti e movimento",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "24 · Trasformazioni e transizioni",
+        "link": "/css/transizioni"
+      },
+      {
+        "text": "25 · Keyframes e animazioni legate allo scroll",
+        "link": "/css/animazioni"
+      },
+      {
+        "text": "26 · View Transitions e aggiornamenti di pagina",
+        "link": "/css/view-transitions"
+      },
+      {
+        "text": "27 · Filtri, blend e isolamento",
+        "link": "/css/filtri-blend"
+      },
+      {
+        "text": "28 · Forme, clipping, maschere e percorsi",
+        "link": "/css/forme-maschere"
+      },
+      {
+        "text": "29 · Liste, marker e contatori",
+        "link": "/css/liste-contatori"
+      },
+      {
+        "text": "30 · Scroll, overflow e scroll snap",
+        "link": "/css/scroll-overflow"
+      }
+    ]
+  },
+  {
+    "text": "Approfondimenti · Verificare e pubblicare",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "31 · Preferenze, accessibilità e stampa",
+        "link": "/css/preferenze-stampa"
+      },
+      {
+        "text": "32 · Organizzazione, debugging e prestazioni",
+        "link": "/css/architettura-debug"
+      },
+      {
+        "text": "33 · Funzioni, valori moderni e grammatica",
+        "link": "/css/funzioni-avanzate"
+      },
+      {
+        "text": "34 · Compatibilità, supports e CSSOM",
+        "link": "/css/compatibilita-cssom"
+      },
+      {
+        "text": "35 · Laboratorio completo e soluzioni",
+        "link": "/css/laboratorio-completo"
+      }
+    ]
+  },
+  {
+    "text": "Consultazione",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Riferimento per famiglie",
+        "link": "/css/riferimento"
+      },
+      {
+        "text": "Fonti e metodo",
+        "link": "/css/fonti"
+      }
+    ]
+  },
+  {
+    "text": "Continua",
+    "items": [
+      {
+        "text": "JavaScript",
+        "link": "/javascript/"
+      },
+      {
+        "text": "Roadmap",
+        "link": "/percorso"
+      }
+    ]
+  }
+]

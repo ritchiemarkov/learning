@@ -27,4 +27,5 @@ jobs:
           cache: npm
           cache-dependency-path: project/package-lock.json
       - run: npm ci
+      - run: python3 scripts/check-curriculum.py
       - run: npm run docs:build

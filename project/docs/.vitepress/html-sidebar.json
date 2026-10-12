@@ -1,0 +1,173 @@
+[
+  {
+    "text": "HTML · Il percorso",
+    "items": [
+      {
+        "text": "Da dove iniziare",
+        "link": "/html/"
+      },
+      {
+        "text": "Copertura e audit",
+        "link": "/html/copertura"
+      }
+    ]
+  },
+  {
+    "text": "Basi · Inizia qui",
+    "items": [
+      {
+        "text": "01 · La prima pagina",
+        "link": "/html/prima-pagina"
+      },
+      {
+        "text": "02 · Elementi e attributi",
+        "link": "/html/elementi-attributi"
+      },
+      {
+        "text": "03 · Testo e liste",
+        "link": "/html/testo-liste"
+      },
+      {
+        "text": "04 · Link e immagini",
+        "link": "/html/link-immagini"
+      },
+      {
+        "text": "05 · HTML semantico",
+        "link": "/html/semantica"
+      },
+      {
+        "text": "06 · Form accessibili",
+        "link": "/html/form"
+      },
+      {
+        "text": "07 · Progetto: la tua pagina personale",
+        "link": "/html/progetto"
+      }
+    ]
+  },
+  {
+    "text": "Approfondimenti · Documento e contenuti",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "08 · Sintassi, categorie e DOM",
+        "link": "/html/sintassi-dom"
+      },
+      {
+        "text": "09 · Head, metadati e risorse",
+        "link": "/html/metadati"
+      },
+      {
+        "text": "10 · Tutta la semantica del testo",
+        "link": "/html/testo-avanzato"
+      },
+      {
+        "text": "11 · Sezioni, liste e navigazione",
+        "link": "/html/navigazione"
+      },
+      {
+        "text": "12 · Tabelle per dati",
+        "link": "/html/tabelle"
+      },
+      {
+        "text": "13 · Immagini responsive e mappe",
+        "link": "/html/immagini-responsive"
+      },
+      {
+        "text": "14 · Audio, video e sottotitoli",
+        "link": "/html/audio-video"
+      },
+      {
+        "text": "15 · Iframe, oggetti, canvas, SVG e MathML",
+        "link": "/html/contenuti-incorporati"
+      }
+    ]
+  },
+  {
+    "text": "Approfondimenti · Controlli e interazioni",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "16 · Tutti i controlli e i 22 tipi di input",
+        "link": "/html/controlli-form"
+      },
+      {
+        "text": "17 · Form: invio, vincoli e dati",
+        "link": "/html/invio-validazione"
+      },
+      {
+        "text": "18 · Attributi globali e collegamenti con le API",
+        "link": "/html/attributi-globali"
+      },
+      {
+        "text": "19 · Accessibilità, nomi e focus",
+        "link": "/html/accessibilita-focus"
+      },
+      {
+        "text": "20 · Details, dialog e popover",
+        "link": "/html/interazioni-native"
+      },
+      {
+        "text": "21 · Lingue, Unicode e direzione del testo",
+        "link": "/html/internazionalizzazione"
+      },
+      {
+        "text": "22 · Script, template e Web Components",
+        "link": "/html/script-template"
+      }
+    ]
+  },
+  {
+    "text": "Approfondimenti · Pubblicare e verificare",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "23 · Microdati e informazioni per i motori di ricerca",
+        "link": "/html/microdati-seo"
+      },
+      {
+        "text": "24 · Sicurezza e caricamento delle risorse",
+        "link": "/html/sicurezza-prestazioni"
+      },
+      {
+        "text": "25 · Compatibilità, funzioni recenti e HTML storico",
+        "link": "/html/compatibilita"
+      },
+      {
+        "text": "26 · Laboratorio completo e verifica",
+        "link": "/html/laboratorio-completo"
+      }
+    ]
+  },
+  {
+    "text": "Riferimento completo",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Tutti gli elementi",
+        "link": "/html/riferimento-elementi"
+      },
+      {
+        "text": "Attributi ed eventi",
+        "link": "/html/riferimento-attributi"
+      },
+      {
+        "text": "Fonti e metodo",
+        "link": "/html/fonti"
+      }
+    ]
+  },
+  {
+    "text": "Continua",
+    "items": [
+      {
+        "text": "CSS",
+        "link": "/css/"
+      },
+      {
+        "text": "Roadmap",
+        "link": "/percorso"
+      }
+    ]
+  }
+]

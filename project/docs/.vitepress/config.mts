@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 import javascriptSidebar from './javascript-sidebar.json'
+import htmlSidebar from './html-sidebar.json'
+import cssSidebar from './css-sidebar.json'
 
 const html = [
   { text: 'Da dove iniziare', link: '/html/' },
@@ -9,7 +11,7 @@ const html = [
   { text: '04 · Link e immagini', link: '/html/link-immagini' },
   { text: '05 · HTML semantico', link: '/html/semantica' },
   { text: '06 · Form accessibili', link: '/html/form' },
-  { text: '07 · Il progetto finale', link: '/html/progetto' },
+  { text: '07 · Il progetto delle basi', link: '/html/progetto' },
 ]
 
 export default defineConfig({
@@ -43,8 +45,10 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.svg' }], ['meta', { name: 'theme-color', content: '#21715a' }]],
   themeConfig: {
     logo: '/favicon.svg',
-    nav: [{ text: 'Percorso', link: '/percorso' }, { text: 'HTML', link: '/html/' }, { text: 'JavaScript', link: '/javascript/' }, { text: 'Laboratorio', link: '/html/progetto' }],
+    nav: [{ text: 'Percorso', link: '/percorso' }, { text: 'HTML', link: '/html/' }, { text: 'CSS', link: '/css/' }, { text: 'JavaScript', link: '/javascript/' }, { text: 'Laboratorio', link: '/css/laboratorio-completo' }],
     sidebar: {
+      '/html/': htmlSidebar,
+      '/css/': cssSidebar,
       '/javascript/': javascriptSidebar,
       '/': [
       { text: 'Il percorso', items: [{ text: 'Roadmap frontend e backend', link: '/percorso' }] },

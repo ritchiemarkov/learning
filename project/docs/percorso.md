@@ -2,7 +2,7 @@
 
 Il nostro obiettivo è saper costruire una piccola applicazione web completa: un'interfaccia nel browser, un server che gestisce le richieste e un database che conserva i dati. **Partiamo con HTML, CSS e JavaScript; aggiungiamo TypeScript, poi il backend. Rust viene dopo questa base.**
 
-Questa è una proposta di percorso: le tappe si adattano a ciò che impari, senza scadenze fisse. Sono disponibili le sette lezioni HTML e il [corso JavaScript.info in italiano](/javascript/), con 175 capitoli. CSS e le altre sezioni descrivono gli obiettivi e i progetti delle lezioni da scrivere.
+Questa è una proposta di percorso: le tappe si adattano a ciò che impari, senza scadenze fisse. Sono disponibili [26 lezioni HTML](/html/), [35 lezioni CSS](/css/) e il [corso JavaScript.info in italiano](/javascript/), con 175 capitoli. HTML e CSS separano le basi dagli approfondimenti, con esercizi e soluzioni. Le altre sezioni descrivono gli obiettivi e i progetti delle lezioni da scrivere.
 
 ## Frontend, backend e database
 
@@ -90,7 +90,7 @@ Sessioni di 20–30 minuti sono un buon punto di partenza. Conta la capacità di
 
 Per HTML servono un editor, un browser e una cartella `esercizi`. Puoi aprire i file `.html` direttamente nel browser. Node.js serve per avviare questo sito VitePress, ma non per i primi esercizi.
 
-Le sette lezioni coprono documento, sintassi, testo, liste, link, immagini, semantica e form. Nel [progetto finale](/html/progetto) riunisci le basi. Tabelle per dati, audio/video e metadati più approfonditi potranno diventare esercizi successivi, quando il progetto ne avrà bisogno.
+Le sette lezioni iniziali coprono le basi. Altre 19 lezioni approfondiscono tabelle, media, form, metadati, accessibilità e componenti. Il [catalogo HTML](/html/copertura) documenta il perimetro verificato dello standard. Per CSS segui le [15 lezioni di base](/css/) e torna ai 20 approfondimenti durante i progetti. Non serve memorizzare ogni voce dei riferimenti prima di continuare.
 
 ::: tip Inizia qui
 Apri [La prima pagina](/html/prima-pagina). Per adesso il nostro compito è costruire e capire una pagina HTML completa.

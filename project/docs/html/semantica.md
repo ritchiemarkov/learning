@@ -63,3 +63,5 @@ Riorganizza la tua pagina personale con un'intestazione, una navigazione, un con
 ::: details Come verificare
 Confronta la struttura con l'esempio. Controlla che ogni `href="#..."` abbia un `id` corrispondente e che le sezioni abbiano un titolo. Non scegliere `<article>` solo per avere un riquadro: il riquadro sarà una scelta CSS.
 :::
+
+Fonti: [WAI · Struttura della pagina](https://www.w3.org/WAI/tutorials/page-structure/).

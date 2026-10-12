@@ -1,0 +1,1034 @@
+{
+  "elements": {
+    "html": {
+      "lesson": "prima-pagina",
+      "meaning": "Radice del documento"
+    },
+    "head": {
+      "lesson": "prima-pagina",
+      "meaning": "Contenitore dei metadati"
+    },
+    "body": {
+      "lesson": "prima-pagina",
+      "meaning": "Contenuto del documento"
+    },
+    "title": {
+      "lesson": "prima-pagina",
+      "meaning": "Titolo del documento"
+    },
+    "base": {
+      "lesson": "metadati",
+      "meaning": "Base degli URL e destinazione predefinita"
+    },
+    "meta": {
+      "lesson": "metadati",
+      "meaning": "Metadato tramite attributi"
+    },
+    "link": {
+      "lesson": "metadati",
+      "meaning": "Relazione con risorse o documenti"
+    },
+    "style": {
+      "lesson": "metadati",
+      "meaning": "Foglio di stile incorporato"
+    },
+    "a": {
+      "lesson": "navigazione",
+      "meaning": "Collegamento con href, segnaposto senza href"
+    },
+    "address": {
+      "lesson": "navigazione",
+      "meaning": "Contatti pertinenti al documento o articolo"
+    },
+    "article": {
+      "lesson": "navigazione",
+      "meaning": "Composizione autonoma"
+    },
+    "aside": {
+      "lesson": "navigazione",
+      "meaning": "Contenuto laterale pertinente"
+    },
+    "footer": {
+      "lesson": "navigazione",
+      "meaning": "Informazioni finali della pagina o sezione"
+    },
+    "header": {
+      "lesson": "navigazione",
+      "meaning": "Introduzione della pagina o sezione"
+    },
+    "hgroup": {
+      "lesson": "navigazione",
+      "meaning": "Titolo e paragrafi correlati"
+    },
+    "main": {
+      "lesson": "navigazione",
+      "meaning": "Contenuto dominante"
+    },
+    "nav": {
+      "lesson": "navigazione",
+      "meaning": "Navigazione principale o di una regione"
+    },
+    "section": {
+      "lesson": "navigazione",
+      "meaning": "Sezione tematica"
+    },
+    "search": {
+      "lesson": "navigazione",
+      "meaning": "Regione di ricerca o filtro"
+    },
+    "ol": {
+      "lesson": "navigazione",
+      "meaning": "Lista con ordine significativo"
+    },
+    "ul": {
+      "lesson": "navigazione",
+      "meaning": "Lista senza ordine significativo"
+    },
+    "li": {
+      "lesson": "navigazione",
+      "meaning": "Voce di lista"
+    },
+    "menu": {
+      "lesson": "navigazione",
+      "meaning": "Lista di comandi"
+    },
+    "h1": {
+      "lesson": "navigazione",
+      "meaning": "Titolo di livello 1"
+    },
+    "h2": {
+      "lesson": "navigazione",
+      "meaning": "Titolo di livello 2"
+    },
+    "h3": {
+      "lesson": "navigazione",
+      "meaning": "Titolo di livello 3"
+    },
+    "h4": {
+      "lesson": "navigazione",
+      "meaning": "Titolo di livello 4"
+    },
+    "h5": {
+      "lesson": "navigazione",
+      "meaning": "Titolo di livello 5"
+    },
+    "h6": {
+      "lesson": "navigazione",
+      "meaning": "Titolo di livello 6"
+    },
+    "abbr": {
+      "lesson": "testo-avanzato",
+      "meaning": "Abbreviazione"
+    },
+    "b": {
+      "lesson": "testo-avanzato",
+      "meaning": "Richiamo di attenzione senza ulteriore importanza"
+    },
+    "blockquote": {
+      "lesson": "testo-avanzato",
+      "meaning": "Citazione estesa"
+    },
+    "br": {
+      "lesson": "testo-avanzato",
+      "meaning": "Interruzione significativa di riga"
+    },
+    "cite": {
+      "lesson": "testo-avanzato",
+      "meaning": "Titolo di un’opera"
+    },
+    "code": {
+      "lesson": "testo-avanzato",
+      "meaning": "Codice informatico"
+    },
+    "data": {
+      "lesson": "testo-avanzato",
+      "meaning": "Valore macchina associato al contenuto"
+    },
+    "dd": {
+      "lesson": "testo-avanzato",
+      "meaning": "Descrizione in una lista di associazioni"
+    },
+    "del": {
+      "lesson": "testo-avanzato",
+      "meaning": "Rimozione editoriale"
+    },
+    "dfn": {
+      "lesson": "testo-avanzato",
+      "meaning": "Termine nel punto in cui viene definito"
+    },
+    "div": {
+      "lesson": "testo-avanzato",
+      "meaning": "Contenitore generico di contenuto flow"
+    },
+    "dl": {
+      "lesson": "testo-avanzato",
+      "meaning": "Lista di associazioni"
+    },
+    "dt": {
+      "lesson": "testo-avanzato",
+      "meaning": "Termine di un’associazione"
+    },
+    "em": {
+      "lesson": "testo-avanzato",
+      "meaning": "Accento o enfasi della frase"
+    },
+    "hr": {
+      "lesson": "testo-avanzato",
+      "meaning": "Separazione tematica"
+    },
+    "i": {
+      "lesson": "testo-avanzato",
+      "meaning": "Voce alternativa o termine distinto dal testo circostante"
+    },
+    "ins": {
+      "lesson": "testo-avanzato",
+      "meaning": "Inserimento editoriale"
+    },
+    "kbd": {
+      "lesson": "testo-avanzato",
+      "meaning": "Input testuale dell’utente"
+    },
+    "mark": {
+      "lesson": "testo-avanzato",
+      "meaning": "Passaggio rilevante nel contesto"
+    },
+    "p": {
+      "lesson": "testo-avanzato",
+      "meaning": "Paragrafo"
+    },
+    "pre": {
+      "lesson": "testo-avanzato",
+      "meaning": "Testo preformattato"
+    },
+    "q": {
+      "lesson": "testo-avanzato",
+      "meaning": "Citazione breve"
+    },
+    "s": {
+      "lesson": "testo-avanzato",
+      "meaning": "Informazione non più corretta o rilevante"
+    },
+    "samp": {
+      "lesson": "testo-avanzato",
+      "meaning": "Output di un programma"
+    },
+    "small": {
+      "lesson": "testo-avanzato",
+      "meaning": "Nota laterale o clausola"
+    },
+    "span": {
+      "lesson": "testo-avanzato",
+      "meaning": "Contenitore generico di contenuto phrasing"
+    },
+    "strong": {
+      "lesson": "testo-avanzato",
+      "meaning": "Importanza, serietà o urgenza"
+    },
+    "sub": {
+      "lesson": "testo-avanzato",
+      "meaning": "Pedice"
+    },
+    "sup": {
+      "lesson": "testo-avanzato",
+      "meaning": "Apice"
+    },
+    "time": {
+      "lesson": "testo-avanzato",
+      "meaning": "Data o tempo con valore macchina"
+    },
+    "u": {
+      "lesson": "testo-avanzato",
+      "meaning": "Annotazione non testuale"
+    },
+    "var": {
+      "lesson": "testo-avanzato",
+      "meaning": "Variabile"
+    },
+    "wbr": {
+      "lesson": "testo-avanzato",
+      "meaning": "Possibile punto di interruzione di parola"
+    },
+    "bdi": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Isolamento direzionale del frammento"
+    },
+    "bdo": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Forzatura della direzione del testo"
+    },
+    "ruby": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Annotazione del testo di base"
+    },
+    "rt": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Testo dell’annotazione ruby"
+    },
+    "rp": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Parentesi di fallback ruby"
+    },
+    "area": {
+      "lesson": "immagini-responsive",
+      "meaning": "Regione di una mappa con collegamento opzionale"
+    },
+    "figcaption": {
+      "lesson": "immagini-responsive",
+      "meaning": "Didascalia di figure"
+    },
+    "figure": {
+      "lesson": "immagini-responsive",
+      "meaning": "Contenuto autonomo con didascalia opzionale"
+    },
+    "img": {
+      "lesson": "immagini-responsive",
+      "meaning": "Immagine con alternativa testuale"
+    },
+    "map": {
+      "lesson": "immagini-responsive",
+      "meaning": "Mappa di regioni dell’immagine"
+    },
+    "picture": {
+      "lesson": "immagini-responsive",
+      "meaning": "Selezione di sorgenti per un’immagine"
+    },
+    "audio": {
+      "lesson": "audio-video",
+      "meaning": "Media audio"
+    },
+    "video": {
+      "lesson": "audio-video",
+      "meaning": "Media video"
+    },
+    "source": {
+      "lesson": "audio-video",
+      "meaning": "Sorgente alternativa in media o picture"
+    },
+    "track": {
+      "lesson": "audio-video",
+      "meaning": "Traccia testuale temporizzata"
+    },
+    "canvas": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Superficie bitmap gestita da script"
+    },
+    "embed": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Risorsa esterna senza fallback interno"
+    },
+    "iframe": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Documento in un contesto di navigazione figlio"
+    },
+    "object": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Risorsa incorporata con fallback"
+    },
+    "caption": {
+      "lesson": "tabelle",
+      "meaning": "Titolo associato alla tabella"
+    },
+    "col": {
+      "lesson": "tabelle",
+      "meaning": "Colonna della tabella"
+    },
+    "colgroup": {
+      "lesson": "tabelle",
+      "meaning": "Gruppo di colonne"
+    },
+    "table": {
+      "lesson": "tabelle",
+      "meaning": "Dati in righe e colonne"
+    },
+    "tbody": {
+      "lesson": "tabelle",
+      "meaning": "Gruppo di righe del corpo"
+    },
+    "td": {
+      "lesson": "tabelle",
+      "meaning": "Cella di dati"
+    },
+    "tfoot": {
+      "lesson": "tabelle",
+      "meaning": "Gruppo di righe finali"
+    },
+    "th": {
+      "lesson": "tabelle",
+      "meaning": "Cella d’intestazione"
+    },
+    "thead": {
+      "lesson": "tabelle",
+      "meaning": "Gruppo di righe d’intestazione"
+    },
+    "tr": {
+      "lesson": "tabelle",
+      "meaning": "Riga di celle"
+    },
+    "button": {
+      "lesson": "controlli-form",
+      "meaning": "Controllo pulsante"
+    },
+    "input": {
+      "lesson": "controlli-form",
+      "meaning": "Controllo secondo il tipo scelto"
+    },
+    "datalist": {
+      "lesson": "controlli-form",
+      "meaning": "Suggerimenti per un input"
+    },
+    "fieldset": {
+      "lesson": "controlli-form",
+      "meaning": "Gruppo di controlli"
+    },
+    "form": {
+      "lesson": "controlli-form",
+      "meaning": "Insieme di controlli e regole d’invio"
+    },
+    "label": {
+      "lesson": "controlli-form",
+      "meaning": "Etichetta di un controllo"
+    },
+    "legend": {
+      "lesson": "controlli-form",
+      "meaning": "Etichetta del gruppo"
+    },
+    "meter": {
+      "lesson": "controlli-form",
+      "meaning": "Misura in un intervallo"
+    },
+    "optgroup": {
+      "lesson": "controlli-form",
+      "meaning": "Gruppo di opzioni"
+    },
+    "option": {
+      "lesson": "controlli-form",
+      "meaning": "Opzione selezionabile o suggerita"
+    },
+    "output": {
+      "lesson": "controlli-form",
+      "meaning": "Risultato di un calcolo o azione"
+    },
+    "progress": {
+      "lesson": "controlli-form",
+      "meaning": "Avanzamento di un processo"
+    },
+    "select": {
+      "lesson": "controlli-form",
+      "meaning": "Selezione di opzioni"
+    },
+    "textarea": {
+      "lesson": "controlli-form",
+      "meaning": "Testo su più righe"
+    },
+    "details": {
+      "lesson": "interazioni-native",
+      "meaning": "Contenuto espandibile"
+    },
+    "dialog": {
+      "lesson": "interazioni-native",
+      "meaning": "Dialogo modale o non modale"
+    },
+    "summary": {
+      "lesson": "interazioni-native",
+      "meaning": "Etichetta del controllo di espansione"
+    },
+    "script": {
+      "lesson": "script-template",
+      "meaning": "Script o blocco di dati secondo type"
+    },
+    "noscript": {
+      "lesson": "script-template",
+      "meaning": "Fallback quando lo scripting è disabilitato"
+    },
+    "slot": {
+      "lesson": "script-template",
+      "meaning": "Punto di distribuzione nello Shadow DOM"
+    },
+    "template": {
+      "lesson": "script-template",
+      "meaning": "Frammento inerte o Shadow DOM dichiarativo"
+    },
+    "selectedcontent": {
+      "lesson": "compatibilita",
+      "meaning": "Contenuto selezionato nel nuovo select personalizzabile"
+    }
+  },
+  "attributes": {
+    "abbr": {
+      "lesson": "tabelle",
+      "meaning": "Etichetta alternativa breve di un’intestazione"
+    },
+    "accept": {
+      "lesson": "invio-validazione",
+      "meaning": "Suggerimento per i tipi di file selezionabili"
+    },
+    "accept-charset": {
+      "lesson": "invio-validazione",
+      "meaning": "Codifica dei dati del form: UTF-8"
+    },
+    "accesskey": {
+      "lesson": "accessibilita-focus",
+      "meaning": "Suggerimento per una scorciatoia di attivazione o focus"
+    },
+    "action": {
+      "lesson": "invio-validazione",
+      "meaning": "Destinazione dell’invio del form"
+    },
+    "allow": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Permissions Policy del frame"
+    },
+    "allowfullscreen": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Abilitazione fullscreen del frame"
+    },
+    "alpha": {
+      "lesson": "compatibilita",
+      "meaning": "Componente alpha del controllo colore"
+    },
+    "alt": {
+      "lesson": "immagini-responsive",
+      "meaning": "Alternativa testuale dell’immagine o del controllo grafico"
+    },
+    "as": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Destinazione della richiesta anticipata da link"
+    },
+    "async": {
+      "lesson": "script-template",
+      "meaning": "Esecuzione dello script quando disponibile"
+    },
+    "autocapitalize": {
+      "lesson": "attributi-globali",
+      "meaning": "Suggerimento di capitalizzazione del testo"
+    },
+    "autocomplete": {
+      "lesson": "invio-validazione",
+      "meaning": "Autocompletamento del form o del controllo"
+    },
+    "autocorrect": {
+      "lesson": "attributi-globali",
+      "meaning": "Suggerimento di correzione automatica"
+    },
+    "autofocus": {
+      "lesson": "accessibilita-focus",
+      "meaning": "Focus automatico all’apertura o caricamento"
+    },
+    "autoplay": {
+      "lesson": "audio-video",
+      "meaning": "Suggerimento di riproduzione automatica, soggetto a policy"
+    },
+    "blocking": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Comportamento di blocco del rendering dove previsto"
+    },
+    "charset": {
+      "lesson": "metadati",
+      "meaning": "Dichiarazione della codifica UTF-8"
+    },
+    "checked": {
+      "lesson": "controlli-form",
+      "meaning": "Selezione iniziale di checkbox o radio"
+    },
+    "cite": {
+      "lesson": "testo-avanzato",
+      "meaning": "URL della fonte di una citazione o modifica"
+    },
+    "class": {
+      "lesson": "attributi-globali",
+      "meaning": "Lista di classi per selezione e stile"
+    },
+    "closedby": {
+      "lesson": "interazioni-native",
+      "meaning": "Azioni dell’utente che possono chiudere un dialogo"
+    },
+    "color": {
+      "lesson": "metadati",
+      "meaning": "Colore per specifici tipi di icona link"
+    },
+    "colorspace": {
+      "lesson": "compatibilita",
+      "meaning": "Spazio colore del valore serializzato"
+    },
+    "cols": {
+      "lesson": "controlli-form",
+      "meaning": "Larghezza indicativa del controllo textarea in caratteri"
+    },
+    "colspan": {
+      "lesson": "tabelle",
+      "meaning": "Numero di colonne occupate da una cella"
+    },
+    "command": {
+      "lesson": "interazioni-native",
+      "meaning": "Azione invocata sul bersaglio del pulsante"
+    },
+    "commandfor": {
+      "lesson": "interazioni-native",
+      "meaning": "ID del bersaglio del comando"
+    },
+    "content": {
+      "lesson": "metadati",
+      "meaning": "Valore del metadato"
+    },
+    "contenteditable": {
+      "lesson": "attributi-globali",
+      "meaning": "Modificabilità della regione testuale"
+    },
+    "controls": {
+      "lesson": "audio-video",
+      "meaning": "Controlli dell’utente per media; contesti recenti da verificare"
+    },
+    "coords": {
+      "lesson": "immagini-responsive",
+      "meaning": "Coordinate della regione di una mappa"
+    },
+    "crossorigin": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Modalità CORS della richiesta"
+    },
+    "data": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "URL della risorsa di object"
+    },
+    "datetime": {
+      "lesson": "testo-avanzato",
+      "meaning": "Data/tempo macchina o data di una modifica"
+    },
+    "decoding": {
+      "lesson": "immagini-responsive",
+      "meaning": "Suggerimento per la decodifica dell’immagine"
+    },
+    "default": {
+      "lesson": "audio-video",
+      "meaning": "Traccia testuale suggerita come iniziale"
+    },
+    "defer": {
+      "lesson": "script-template",
+      "meaning": "Esecuzione differita dello script classico esterno"
+    },
+    "dir": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Direzione di base del testo"
+    },
+    "dirname": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Nome della voce aggiuntiva che invia la direzione del testo"
+    },
+    "disabled": {
+      "lesson": "invio-validazione",
+      "meaning": "Disabilitazione del controllo, gruppo o risorsa dove applicabile"
+    },
+    "download": {
+      "lesson": "navigazione",
+      "meaning": "Suggerimento di download e nome del file"
+    },
+    "draggable": {
+      "lesson": "attributi-globali",
+      "meaning": "Abilitazione del trascinamento, non comportamento completo"
+    },
+    "enctype": {
+      "lesson": "invio-validazione",
+      "meaning": "Codifica dei dati inviati dal form"
+    },
+    "enterkeyhint": {
+      "lesson": "attributi-globali",
+      "meaning": "Azione suggerita del tasto Invio virtuale"
+    },
+    "fetchpriority": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Priorità suggerita della richiesta"
+    },
+    "for": {
+      "lesson": "controlli-form",
+      "meaning": "ID del controllo etichettato o lista di dipendenze di output"
+    },
+    "form": {
+      "lesson": "invio-validazione",
+      "meaning": "ID del form proprietario del controllo"
+    },
+    "formaction": {
+      "lesson": "invio-validazione",
+      "meaning": "Sovrascrittura della destinazione da parte del submitter"
+    },
+    "formenctype": {
+      "lesson": "invio-validazione",
+      "meaning": "Sovrascrittura della codifica da parte del submitter"
+    },
+    "formmethod": {
+      "lesson": "invio-validazione",
+      "meaning": "Sovrascrittura del metodo da parte del submitter"
+    },
+    "formnovalidate": {
+      "lesson": "invio-validazione",
+      "meaning": "Invio dal submitter senza validazione interattiva"
+    },
+    "formtarget": {
+      "lesson": "invio-validazione",
+      "meaning": "Sovrascrittura del contesto di risposta dal submitter"
+    },
+    "headers": {
+      "lesson": "tabelle",
+      "meaning": "ID delle intestazioni associate alla cella"
+    },
+    "headingoffset": {
+      "lesson": "compatibilita",
+      "meaning": "Incremento del livello calcolato dei titoli"
+    },
+    "headingreset": {
+      "lesson": "compatibilita",
+      "meaning": "Interruzione dell’accumulo degli offset dei titoli"
+    },
+    "height": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Dimensione verticale, con regole proprie dell’elemento"
+    },
+    "hidden": {
+      "lesson": "attributi-globali",
+      "meaning": "Contenuto nascosto, anche rivelabile con until-found"
+    },
+    "high": {
+      "lesson": "controlli-form",
+      "meaning": "Soglia alta della misura meter"
+    },
+    "href": {
+      "lesson": "navigazione",
+      "meaning": "URL della destinazione o risorsa collegata"
+    },
+    "hreflang": {
+      "lesson": "navigazione",
+      "meaning": "Lingua dichiarata della destinazione"
+    },
+    "http-equiv": {
+      "lesson": "metadati",
+      "meaning": "Direttiva pragma prevista per meta"
+    },
+    "id": {
+      "lesson": "attributi-globali",
+      "meaning": "Identificatore univoco dell’elemento"
+    },
+    "imagesizes": {
+      "lesson": "immagini-responsive",
+      "meaning": "Dimensione prevista dell’immagine anticipata da link"
+    },
+    "imagesrcset": {
+      "lesson": "immagini-responsive",
+      "meaning": "Candidati responsive dell’immagine anticipata da link"
+    },
+    "inert": {
+      "lesson": "accessibilita-focus",
+      "meaning": "Sottoalbero non interattivo e fuori dai normali percorsi accessibili"
+    },
+    "inputmode": {
+      "lesson": "attributi-globali",
+      "meaning": "Tipo di tastiera virtuale suggerito"
+    },
+    "integrity": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Metadato crittografico di integrità della risorsa"
+    },
+    "is": {
+      "lesson": "script-template",
+      "meaning": "Nome di un elemento built-in personalizzato"
+    },
+    "ismap": {
+      "lesson": "immagini-responsive",
+      "meaning": "Mappa dell’immagine gestita dal server"
+    },
+    "itemid": {
+      "lesson": "microdati-seo",
+      "meaning": "Identificatore globale dell’item"
+    },
+    "itemprop": {
+      "lesson": "microdati-seo",
+      "meaning": "Proprietà del vocabolario dei microdati"
+    },
+    "itemref": {
+      "lesson": "microdati-seo",
+      "meaning": "ID esterni con proprietà dell’item"
+    },
+    "itemscope": {
+      "lesson": "microdati-seo",
+      "meaning": "Creazione di un item di microdati"
+    },
+    "itemtype": {
+      "lesson": "microdati-seo",
+      "meaning": "URL dei tipi del vocabolario dell’item"
+    },
+    "kind": {
+      "lesson": "audio-video",
+      "meaning": "Tipo di traccia temporizzata"
+    },
+    "label": {
+      "lesson": "controlli-form",
+      "meaning": "Etichetta dell’opzione o gruppo; nome della traccia media"
+    },
+    "lang": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Lingua del contenuto secondo BCP 47"
+    },
+    "list": {
+      "lesson": "controlli-form",
+      "meaning": "ID del datalist di suggerimenti"
+    },
+    "loading": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Strategia di caricamento nei contesti previsti"
+    },
+    "loop": {
+      "lesson": "audio-video",
+      "meaning": "Ripetizione del media"
+    },
+    "low": {
+      "lesson": "controlli-form",
+      "meaning": "Soglia bassa della misura meter"
+    },
+    "max": {
+      "lesson": "invio-validazione",
+      "meaning": "Massimo valore ammesso o massimo della misura"
+    },
+    "maxlength": {
+      "lesson": "invio-validazione",
+      "meaning": "Lunghezza massima del testo dove applicabile"
+    },
+    "media": {
+      "lesson": "metadati",
+      "meaning": "Condizione media di applicazione o scelta della risorsa"
+    },
+    "method": {
+      "lesson": "invio-validazione",
+      "meaning": "Metodo di invio o chiusura del dialogo"
+    },
+    "min": {
+      "lesson": "invio-validazione",
+      "meaning": "Minimo valore ammesso o minimo della misura"
+    },
+    "minlength": {
+      "lesson": "invio-validazione",
+      "meaning": "Lunghezza minima del testo dove applicabile"
+    },
+    "multiple": {
+      "lesson": "controlli-form",
+      "meaning": "Valori o selezioni multiple dove previste"
+    },
+    "muted": {
+      "lesson": "audio-video",
+      "meaning": "Stato iniziale di silenziamento del media"
+    },
+    "name": {
+      "lesson": "invio-validazione",
+      "meaning": "Nome del controllo, form, destinazione o gruppo secondo contesto"
+    },
+    "nomodule": {
+      "lesson": "script-template",
+      "meaning": "Percorso script per browser senza supporto ai moduli"
+    },
+    "nonce": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Token che collabora con la Content Security Policy"
+    },
+    "novalidate": {
+      "lesson": "invio-validazione",
+      "meaning": "Form senza validazione interattiva all’invio"
+    },
+    "open": {
+      "lesson": "interazioni-native",
+      "meaning": "Stato aperto di details o dialog"
+    },
+    "optimum": {
+      "lesson": "controlli-form",
+      "meaning": "Valore ottimale della misura meter"
+    },
+    "pattern": {
+      "lesson": "invio-validazione",
+      "meaning": "Vincolo sull’intero valore testuale dove applicabile"
+    },
+    "ping": {
+      "lesson": "navigazione",
+      "meaning": "URL notificati al seguito di un collegamento"
+    },
+    "placeholder": {
+      "lesson": "controlli-form",
+      "meaning": "Suggerimento di inserimento, non etichetta"
+    },
+    "playsinline": {
+      "lesson": "audio-video",
+      "meaning": "Suggerimento di riproduzione video nel contesto della pagina"
+    },
+    "popover": {
+      "lesson": "interazioni-native",
+      "meaning": "Tipo di popover del contenuto"
+    },
+    "popovertarget": {
+      "lesson": "interazioni-native",
+      "meaning": "ID del popover bersaglio"
+    },
+    "popovertargetaction": {
+      "lesson": "interazioni-native",
+      "meaning": "Azione di apertura, chiusura o alternanza del popover"
+    },
+    "poster": {
+      "lesson": "audio-video",
+      "meaning": "Immagine di anteprima del video"
+    },
+    "preload": {
+      "lesson": "audio-video",
+      "meaning": "Quantità di precaricamento suggerita per il media"
+    },
+    "readonly": {
+      "lesson": "invio-validazione",
+      "meaning": "Controllo non modificabile ma normalmente inviabile"
+    },
+    "referrerpolicy": {
+      "lesson": "sicurezza-prestazioni",
+      "meaning": "Policy delle informazioni di referrer della richiesta"
+    },
+    "rel": {
+      "lesson": "metadati",
+      "meaning": "Lista di relazioni o tipi di collegamento"
+    },
+    "required": {
+      "lesson": "invio-validazione",
+      "meaning": "Valore obbligatorio dove applicabile"
+    },
+    "reversed": {
+      "lesson": "navigazione",
+      "meaning": "Numerazione discendente della lista ordinata"
+    },
+    "rows": {
+      "lesson": "controlli-form",
+      "meaning": "Altezza indicativa della textarea in righe"
+    },
+    "rowspan": {
+      "lesson": "tabelle",
+      "meaning": "Numero di righe occupate da una cella"
+    },
+    "sandbox": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Restrizioni e capacità concesse al documento incorporato"
+    },
+    "scope": {
+      "lesson": "tabelle",
+      "meaning": "Gruppo di celle cui si riferisce un’intestazione"
+    },
+    "selected": {
+      "lesson": "controlli-form",
+      "meaning": "Selezione iniziale dell’opzione"
+    },
+    "shadowrootclonable": {
+      "lesson": "script-template",
+      "meaning": "Clonabilità dello Shadow DOM dichiarativo"
+    },
+    "shadowrootcustomelementregistry": {
+      "lesson": "script-template",
+      "meaning": "Registro di custom elements dello Shadow DOM dichiarativo"
+    },
+    "shadowrootdelegatesfocus": {
+      "lesson": "script-template",
+      "meaning": "Delega del focus nello Shadow DOM dichiarativo"
+    },
+    "shadowrootmode": {
+      "lesson": "script-template",
+      "meaning": "Modalità open/closed della radice shadow dichiarativa"
+    },
+    "shadowrootserializable": {
+      "lesson": "script-template",
+      "meaning": "Serializzabilità dello Shadow DOM dichiarativo"
+    },
+    "shadowrootslotassignment": {
+      "lesson": "script-template",
+      "meaning": "Modalità di assegnazione degli slot dichiarativi"
+    },
+    "shape": {
+      "lesson": "immagini-responsive",
+      "meaning": "Geometria della regione area"
+    },
+    "size": {
+      "lesson": "controlli-form",
+      "meaning": "Dimensione indicativa del controllo, secondo il tipo"
+    },
+    "sizes": {
+      "lesson": "immagini-responsive",
+      "meaning": "Spazio previsto dell’immagine o dimensioni dell’icona secondo contesto"
+    },
+    "slot": {
+      "lesson": "script-template",
+      "meaning": "Slot nominato cui assegnare il nodo"
+    },
+    "span": {
+      "lesson": "tabelle",
+      "meaning": "Numero di colonne del col/colgroup"
+    },
+    "spellcheck": {
+      "lesson": "attributi-globali",
+      "meaning": "Suggerimento di controllo ortografico"
+    },
+    "src": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "URL della sorgente, secondo l’elemento"
+    },
+    "srcdoc": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Documento HTML inline del frame"
+    },
+    "srclang": {
+      "lesson": "audio-video",
+      "meaning": "Lingua della traccia temporizzata"
+    },
+    "srcset": {
+      "lesson": "immagini-responsive",
+      "meaning": "Lista di sorgenti immagine candidate"
+    },
+    "start": {
+      "lesson": "navigazione",
+      "meaning": "Numero iniziale della lista ordinata"
+    },
+    "step": {
+      "lesson": "invio-validazione",
+      "meaning": "Passo dei valori numerici o temporali dove applicabile"
+    },
+    "style": {
+      "lesson": "attributi-globali",
+      "meaning": "Dichiarazioni CSS inline"
+    },
+    "tabindex": {
+      "lesson": "accessibilita-focus",
+      "meaning": "Partecipazione al focus programmatico e sequenziale"
+    },
+    "target": {
+      "lesson": "navigazione",
+      "meaning": "Contesto di navigazione destinazione"
+    },
+    "title": {
+      "lesson": "attributi-globali",
+      "meaning": "Informazioni consultive, non sostituto di nome o label"
+    },
+    "translate": {
+      "lesson": "internazionalizzazione",
+      "meaning": "Suggerimento sul trattamento nella traduzione"
+    },
+    "type": {
+      "lesson": "controlli-form",
+      "meaning": "Tipo del controllo, script, risorsa o lista secondo contesto"
+    },
+    "usemap": {
+      "lesson": "immagini-responsive",
+      "meaning": "Riferimento alla mappa dell’immagine"
+    },
+    "value": {
+      "lesson": "controlli-form",
+      "meaning": "Valore iniziale, dato macchina o misura secondo contesto"
+    },
+    "width": {
+      "lesson": "contenuti-incorporati",
+      "meaning": "Dimensione orizzontale, con regole proprie dell’elemento"
+    },
+    "wrap": {
+      "lesson": "controlli-form",
+      "meaning": "Trattamento delle interruzioni di riga della textarea"
+    },
+    "writingsuggestions": {
+      "lesson": "attributi-globali",
+      "meaning": "Suggerimento di assistenza alla scrittura"
+    }
+  }
+}

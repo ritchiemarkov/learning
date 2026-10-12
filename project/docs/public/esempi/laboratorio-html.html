@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Soluzione di partenza per il laboratorio HTML di Learning.">
+  <title>Laboratori · Esercizio HTML Learning</title>
+</head>
+<body>
+  <a href="#contenuto">Vai al contenuto</a>
+  <header><h1>Laboratori Learning</h1><p>Studiamo costruendo documenti.</p></header>
+  <nav aria-label="In questa pagina">
+    <ul><li><a href="#calendario">Calendario</a></li><li><a href="#iscrizione">Iscrizione di prova</a></li><li><a href="#domande">Domande</a></li></ul>
+  </nav>
+  <main id="contenuto">
+    <section aria-labelledby="titolo-corsi">
+      <h2 id="titolo-corsi">I corsi</h2>
+      <article><h3>HTML</h3><p>Impariamo struttura, immagini, form e accessibilità.</p></article>
+      <article><h3>CSS</h3><p>Applichiamo colori, tipografia e layout.</p></article>
+      <p lang="en">Learn by building.</p>
+      <dl><dt><dfn>Markup</dfn></dt><dd>Una struttura che descrive il significato dei contenuti.</dd></dl>
+    </section>
+    <section id="calendario" aria-labelledby="titolo-calendario">
+      <h2 id="titolo-calendario">Calendario</h2>
+      <table>
+        <caption>Laboratori di novembre: posti disponibili</caption>
+        <thead><tr><th scope="col">Corso</th><th scope="col">Data</th><th scope="col">Posti</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">HTML</th><td><time datetime="2026-11-02">2 novembre 2026</time></td><td>12</td></tr>
+          <tr><th scope="row">CSS</th><td><time datetime="2026-11-09">9 novembre 2026</time></td><td>8</td></tr>
+        </tbody>
+        <tfoot><tr><th scope="row" colspan="2">Totale posti</th><td>20</td></tr></tfoot>
+      </table>
+    </section>
+    <section id="iscrizione" aria-labelledby="titolo-iscrizione">
+      <h2 id="titolo-iscrizione">Iscrizione di prova</h2>
+      <p id="avviso">Usa dati inventati. Questo form mostra i dati nella query della pagina, senza registrare iscrizioni.</p>
+      <form action="" method="get" aria-describedby="avviso">
+        <p><label for="nome">Nome (obbligatorio)</label><input id="nome" name="nome" autocomplete="given-name" required></p>
+        <p><label for="email">Email (obbligatoria)</label><input id="email" name="email" type="email" autocomplete="email" required></p>
+        <p><label for="corso">Corso</label><select id="corso" name="corso"><option value="html">HTML</option><option value="css">CSS</option></select></p>
+        <fieldset><legend>Modalità</legend><label><input name="modalita" type="radio" value="presenza" checked> In presenza</label><label><input name="modalita" type="radio" value="online"> Online</label></fieldset>
+        <p><label for="note">Note</label><textarea id="note" name="note" rows="3" maxlength="500"></textarea></p>
+        <button type="submit">Prova l'invio</button>
+      </form>
+    </section>
+    <section id="domande" aria-labelledby="titolo-domande">
+      <h2 id="titolo-domande">Domande frequenti</h2>
+      <details><summary>Serve già conoscere JavaScript?</summary><p>No, iniziamo da HTML.</p></details>
+      <details><summary>Quali strumenti servono?</summary><p>Un editor, un browser e una cartella per gli esercizi.</p></details>
+      <button type="button" popovertarget="aiuto">Apri un suggerimento</button>
+      <div id="aiuto" popover>Prova la pagina anche con la tastiera.</div>
+      <p>Il suggerimento del popover: prova la pagina anche con la tastiera.</p>
+    </section>
+  </main>
+  <footer><address>Contatto di esempio: <a href="mailto:info@example.org">info@example.org</a></address><p><a href="/html/laboratorio-completo">Torna alla lezione</a></p></footer>
+</body>
+</html>

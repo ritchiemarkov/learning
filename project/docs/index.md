@@ -13,13 +13,13 @@ hero:
       link: /percorso
 features:
   - title: 01 / HTML
-    details: Dai significato ai contenuti. Crea la tua prima pagina, collega documenti e costruisci un form accessibile. Si parte da qui.
+    details: 26 lezioni, dalle basi agli approfondimenti, con esercizi, soluzioni e catalogo completo dello snapshot HTML. Si parte da qui.
     link: /html/
     linkText: Apri le lezioni
   - title: 02 / CSS
-    details: Poi lavoreremo su colori, tipografia e layout che si adattano a ogni schermo.
+    details: "35 lezioni: 15 basi e 20 approfondimenti su stile, layout, responsive, accessibilità ed effetti, con esercizi e soluzioni."
     link: /css/
-    linkText: Guarda la prossima tappa
+    linkText: Apri il corso
   - title: 03 / JavaScript
     details: "Il corso JavaScript.info in italiano: 175 capitoli sul linguaggio e sul browser, con esercizi e approfondimenti separati dalle basi."
     link: /javascript/

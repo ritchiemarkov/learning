@@ -1,0 +1,494 @@
+{
+  "consulted": "2026-10-12",
+  "source": "https://web.dev/learn/css",
+  "source_sha256": "64099c3ff3481deaf0c7d62b49ffaef664be6b13f04aeca7be9a8b32fb984ebb",
+  "google_modules": [
+    {
+      "title": "Box Model",
+      "url": "https://web.dev/learn/css/box-model",
+      "lessons": [
+        "box-model"
+      ]
+    },
+    {
+      "title": "Selectors",
+      "url": "https://web.dev/learn/css/selectors",
+      "lessons": [
+        "selettori",
+        "selettori-avanzati"
+      ]
+    },
+    {
+      "title": "Nesting",
+      "url": "https://web.dev/learn/css/nesting",
+      "lessons": [
+        "selettori-avanzati"
+      ]
+    },
+    {
+      "title": "The cascade",
+      "url": "https://web.dev/learn/css/the-cascade",
+      "lessons": [
+        "cascata",
+        "layer-cascata"
+      ]
+    },
+    {
+      "title": "Specificity",
+      "url": "https://web.dev/learn/css/specificity",
+      "lessons": [
+        "cascata",
+        "selettori-avanzati"
+      ]
+    },
+    {
+      "title": "Inheritance",
+      "url": "https://web.dev/learn/css/inheritance",
+      "lessons": [
+        "cascata"
+      ]
+    },
+    {
+      "title": "Color",
+      "url": "https://web.dev/learn/css/color",
+      "lessons": [
+        "colori-bordi",
+        "sfondi-effetti"
+      ]
+    },
+    {
+      "title": "Sizing Units",
+      "url": "https://web.dev/learn/css/sizing",
+      "lessons": [
+        "unita-funzioni"
+      ]
+    },
+    {
+      "title": "Layout",
+      "url": "https://web.dev/learn/css/layout",
+      "lessons": [
+        "flusso-display",
+        "posizionamento"
+      ]
+    },
+    {
+      "title": "Flexbox",
+      "url": "https://web.dev/learn/css/flexbox",
+      "lessons": [
+        "flexbox",
+        "layout-avanzato"
+      ]
+    },
+    {
+      "title": "Grid",
+      "url": "https://web.dev/learn/css/grid",
+      "lessons": [
+        "grid",
+        "layout-avanzato"
+      ]
+    },
+    {
+      "title": "Logical Properties",
+      "url": "https://web.dev/learn/css/logical-properties",
+      "lessons": [
+        "spazi-logici"
+      ]
+    },
+    {
+      "title": "Custom Properties",
+      "url": "https://web.dev/learn/css/custom-properties",
+      "lessons": [
+        "variabili"
+      ]
+    },
+    {
+      "title": "Spacing",
+      "url": "https://web.dev/learn/css/spacing",
+      "lessons": [
+        "spazi-logici"
+      ]
+    },
+    {
+      "title": "Pseudo-elements",
+      "url": "https://web.dev/learn/css/pseudo-elements",
+      "lessons": [
+        "selettori-avanzati",
+        "liste-contatori"
+      ]
+    },
+    {
+      "title": "Pseudo-classes",
+      "url": "https://web.dev/learn/css/pseudo-classes",
+      "lessons": [
+        "stati-focus",
+        "selettori-avanzati"
+      ]
+    },
+    {
+      "title": "Borders",
+      "url": "https://web.dev/learn/css/borders",
+      "lessons": [
+        "colori-bordi",
+        "sfondi-effetti"
+      ]
+    },
+    {
+      "title": "Shadows",
+      "url": "https://web.dev/learn/css/shadows",
+      "lessons": [
+        "sfondi-effetti"
+      ]
+    },
+    {
+      "title": "Focus",
+      "url": "https://web.dev/learn/css/focus",
+      "lessons": [
+        "stati-focus",
+        "preferenze-stampa"
+      ]
+    },
+    {
+      "title": "Cursors and pointers",
+      "url": "https://web.dev/learn/css/cursors-and-pointers",
+      "lessons": [
+        "stati-focus"
+      ]
+    },
+    {
+      "title": "Z-index and stacking contexts",
+      "url": "https://web.dev/learn/css/z-index",
+      "lessons": [
+        "posizionamento"
+      ]
+    },
+    {
+      "title": "Anchor positioning",
+      "url": "https://web.dev/learn/css/anchor-positioning",
+      "lessons": [
+        "posizionamento"
+      ]
+    },
+    {
+      "title": "Popover and dialog",
+      "url": "https://web.dev/learn/css/popover-and-dialog",
+      "lessons": [
+        "posizionamento"
+      ]
+    },
+    {
+      "title": "Functions",
+      "url": "https://web.dev/learn/css/functions",
+      "lessons": [
+        "unita-funzioni",
+        "funzioni-avanzate"
+      ]
+    },
+    {
+      "title": "Paths, shapes, clipping, and masking",
+      "url": "https://web.dev/learn/css/paths-shapes-clipping-masking",
+      "lessons": [
+        "forme-maschere"
+      ]
+    },
+    {
+      "title": "Gradients",
+      "url": "https://web.dev/learn/css/gradients",
+      "lessons": [
+        "sfondi-effetti"
+      ]
+    },
+    {
+      "title": "Animations",
+      "url": "https://web.dev/learn/css/animations",
+      "lessons": [
+        "animazioni"
+      ]
+    },
+    {
+      "title": "Filters",
+      "url": "https://web.dev/learn/css/filters",
+      "lessons": [
+        "filtri-blend"
+      ]
+    },
+    {
+      "title": "Blend Modes",
+      "url": "https://web.dev/learn/css/blend-modes",
+      "lessons": [
+        "filtri-blend"
+      ]
+    },
+    {
+      "title": "Lists",
+      "url": "https://web.dev/learn/css/lists",
+      "lessons": [
+        "contenuti-controlli",
+        "liste-contatori"
+      ]
+    },
+    {
+      "title": "Counters",
+      "url": "https://web.dev/learn/css/counters",
+      "lessons": [
+        "liste-contatori"
+      ]
+    },
+    {
+      "title": "Transitions",
+      "url": "https://web.dev/learn/css/transitions",
+      "lessons": [
+        "transizioni"
+      ]
+    },
+    {
+      "title": "View Transitions for SPAs",
+      "url": "https://web.dev/learn/css/view-transitions-spas",
+      "lessons": [
+        "view-transitions"
+      ]
+    },
+    {
+      "title": "Overflow",
+      "url": "https://web.dev/learn/css/overflow",
+      "lessons": [
+        "flusso-display",
+        "scroll-overflow"
+      ]
+    },
+    {
+      "title": "Backgrounds",
+      "url": "https://web.dev/learn/css/backgrounds",
+      "lessons": [
+        "colori-bordi",
+        "sfondi-effetti"
+      ]
+    },
+    {
+      "title": "Text and typography",
+      "url": "https://web.dev/learn/css/typography",
+      "lessons": [
+        "tipografia",
+        "tipografia-avanzata"
+      ]
+    },
+    {
+      "title": "Container queries",
+      "url": "https://web.dev/learn/css/container-queries",
+      "lessons": [
+        "container-query"
+      ]
+    }
+  ],
+  "lessons": [
+    {
+      "number": 1,
+      "slug": "primo-stile",
+      "title": "01 · Il primo foglio di stile",
+      "level": "basi"
+    },
+    {
+      "number": 2,
+      "slug": "selettori",
+      "title": "02 · Selettori e combinatori",
+      "level": "basi"
+    },
+    {
+      "number": 3,
+      "slug": "cascata",
+      "title": "03 · Cascata, specificità ed ereditarietà",
+      "level": "basi"
+    },
+    {
+      "number": 4,
+      "slug": "box-model",
+      "title": "04 · Box model e dimensioni",
+      "level": "basi"
+    },
+    {
+      "number": 5,
+      "slug": "unita-funzioni",
+      "title": "05 · Unità, valori e funzioni di base",
+      "level": "basi"
+    },
+    {
+      "number": 6,
+      "slug": "colori-bordi",
+      "title": "06 · Colori, sfondi e bordi",
+      "level": "basi"
+    },
+    {
+      "number": 7,
+      "slug": "tipografia",
+      "title": "07 · Testo e tipografia leggibile",
+      "level": "basi"
+    },
+    {
+      "number": 8,
+      "slug": "flusso-display",
+      "title": "08 · Flusso, display e overflow",
+      "level": "basi"
+    },
+    {
+      "number": 9,
+      "slug": "flexbox",
+      "title": "09 · Flexbox",
+      "level": "basi"
+    },
+    {
+      "number": 10,
+      "slug": "grid",
+      "title": "10 · Grid",
+      "level": "basi"
+    },
+    {
+      "number": 11,
+      "slug": "responsive",
+      "title": "11 · Responsive design e media query",
+      "level": "basi"
+    },
+    {
+      "number": 12,
+      "slug": "spazi-logici",
+      "title": "12 · Spazi e proprietà logiche",
+      "level": "basi"
+    },
+    {
+      "number": 13,
+      "slug": "stati-focus",
+      "title": "13 · Stati, focus e puntatori",
+      "level": "basi"
+    },
+    {
+      "number": 14,
+      "slug": "contenuti-controlli",
+      "title": "14 · Immagini, form, tabelle e liste",
+      "level": "basi"
+    },
+    {
+      "number": 15,
+      "slug": "progetto-basi",
+      "title": "15 · Progetto delle basi CSS",
+      "level": "basi"
+    },
+    {
+      "number": 16,
+      "slug": "selettori-avanzati",
+      "title": "16 · Selettori avanzati, nesting e scope",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 17,
+      "slug": "layer-cascata",
+      "title": "17 · Layer e controllo della cascata",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 18,
+      "slug": "variabili",
+      "title": "18 · Custom properties e property",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 19,
+      "slug": "tipografia-avanzata",
+      "title": "19 · Font web e tipografia avanzata",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 20,
+      "slug": "sfondi-effetti",
+      "title": "20 · Sfondi, gradienti, bordi e ombre",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 21,
+      "slug": "posizionamento",
+      "title": "21 · Posizionamento, stacking e top layer",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 22,
+      "slug": "layout-avanzato",
+      "title": "22 · Grid, subgrid e allineamento avanzato",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 23,
+      "slug": "container-query",
+      "title": "23 · Container query e componenti responsive",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 24,
+      "slug": "transizioni",
+      "title": "24 · Trasformazioni e transizioni",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 25,
+      "slug": "animazioni",
+      "title": "25 · Keyframes e animazioni legate allo scroll",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 26,
+      "slug": "view-transitions",
+      "title": "26 · View Transitions e aggiornamenti di pagina",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 27,
+      "slug": "filtri-blend",
+      "title": "27 · Filtri, blend e isolamento",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 28,
+      "slug": "forme-maschere",
+      "title": "28 · Forme, clipping, maschere e percorsi",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 29,
+      "slug": "liste-contatori",
+      "title": "29 · Liste, marker e contatori",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 30,
+      "slug": "scroll-overflow",
+      "title": "30 · Scroll, overflow e scroll snap",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 31,
+      "slug": "preferenze-stampa",
+      "title": "31 · Preferenze, accessibilità e stampa",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 32,
+      "slug": "architettura-debug",
+      "title": "32 · Organizzazione, debugging e prestazioni",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 33,
+      "slug": "funzioni-avanzate",
+      "title": "33 · Funzioni, valori moderni e grammatica",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 34,
+      "slug": "compatibilita-cssom",
+      "title": "34 · Compatibilità, supports e CSSOM",
+      "level": "approfondimenti"
+    },
+    {
+      "number": 35,
+      "slug": "laboratorio-completo",
+      "title": "35 · Laboratorio completo e soluzioni",
+      "level": "approfondimenti"
+    }
+  ]
+}

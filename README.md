@@ -8,9 +8,27 @@ Inizia da [La prima pagina HTML](https://learning-web-rust.pages.dev/html/prima-
 
 ## Contenuti
 
-Sono disponibili sette lezioni HTML e [175 articoli JavaScript.info in italiano](https://learning-web-rust.pages.dev/javascript/indice), con 252 esercizi e le soluzioni disponibili. La [roadmap](https://learning-web-rust.pages.dev/percorso) definisce obiettivi, progetti e punti di controllo per le tappe successive.
+Sono disponibili [26 lezioni HTML](https://learning-web-rust.pages.dev/html/), [35 lezioni CSS](https://learning-web-rust.pages.dev/css/) e [175 articoli JavaScript.info in italiano](https://learning-web-rust.pages.dev/javascript/indice), con 252 esercizi e le soluzioni disponibili. La [roadmap](https://learning-web-rust.pages.dev/percorso) definisce obiettivi, progetti e punti di controllo per le tappe successive.
 
 I contenuti JavaScript sono di Ilya Kantor e dei contributori del tutorial e dell'edizione italiana. Attribuzione, modifiche e licenze sono in [`project/docs/javascript/fonti.md`](project/docs/javascript/fonti.md). I contenuti importati sono destinati all'uso non commerciale secondo le condizioni delle fonti.
+
+## Audit e copertura HTML/CSS
+
+HTML include un inventario WHATWG del 12 ottobre 2026: 113 elementi nominati, 144 nomi di attributi / 180 contesti e 89 attributi gestori di eventi. La copertura al 100% riguarda il catalogo dello snapshot, non tutte le API o la padronanza del lettore. CSS mappa i 37 moduli didattici di Google Learn CSS, con lezioni aggiuntive; non pretende di riscrivere ogni proprietà CSS. Le pagine Copertura e Fonti documentano metodi e limiti.
+
+Per verificare gli inventari, la struttura delle lezioni e la mappa del programma:
+
+```bash
+python3 project/scripts/check-curriculum.py
+```
+
+Il controllo gira anche nella CI. Per rigenerare i riferimenti HTML dallo snapshot e dalle descrizioni curate:
+
+```bash
+python3 project/scripts/build-html-reference.py
+```
+
+Le soluzioni autonome sono in `project/docs/public/esempi/laboratorio-html.html`, `laboratorio-css.html` e `laboratorio-css.css`.
 
 ## Importazione di JavaScript.info
 
@@ -88,8 +106,8 @@ project/
     ├── index.md        # Home
     ├── percorso.md     # Metodo e roadmap
     ├── html/           # Lezioni ed esercizi
-    ├── css/            # Prossima tappa
-    ├── javascript/     # Prossima tappa
+    ├── css/            # 15 basi, 20 approfondimenti e soluzioni
+    ├── javascript/     # Tutorial JavaScript.info completo
     ├── typescript/     # Tipi dopo JavaScript
     ├── backend/        # HTTP, API e Node.js
     ├── database/       # SQL e PostgreSQL

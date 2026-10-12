@@ -80,3 +80,5 @@ Correggi questo frammento:
 ```
 Il testo alternativo deve descrivere la tua immagine reale. `<img>` non ha un tag di chiusura.
 :::
+
+Fonti: [WHATWG · Sintassi HTML](https://html.spec.whatwg.org/multipage/syntax.html).

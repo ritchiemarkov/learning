@@ -1,0 +1,2113 @@
+{
+  "source": "https://html.spec.whatwg.org/multipage/indices.html",
+  "consulted": "2026-10-12",
+  "standard_updated": "2026-10-09",
+  "source_sha256": "51977e27847bb3d279c0092a8757d9185fc3939d717787fd6a1c9b4d1732b2cb",
+  "elements": [
+    {
+      "name": "a",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-a-element",
+      "attributes": "globals ; href ; target ; download ; ping ; rel ; hreflang ; type ; referrerpolicy"
+    },
+    {
+      "name": "abbr",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-abbr-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "address",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-address-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "area",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#the-area-element",
+      "attributes": "globals ; alt ; coords ; shape ; href ; target ; download ; ping ; rel ; referrerpolicy"
+    },
+    {
+      "name": "article",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-article-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "aside",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-aside-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "audio",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
+      "attributes": "globals ; src ; crossorigin ; preload ; autoplay ; loading ; loop ; muted ; controls"
+    },
+    {
+      "name": "b",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-b-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "base",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-base-element",
+      "attributes": "globals ; href ; target"
+    },
+    {
+      "name": "bdi",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdi-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "bdo",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdo-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "blockquote",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-blockquote-element",
+      "attributes": "globals ; cite"
+    },
+    {
+      "name": "body",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-body-element",
+      "attributes": "globals ; onafterprint ; onbeforeprint ; onbeforeunload ; onhashchange ; onlanguagechange ; onmessage ; onmessageerror ; onoffline ; ononline ; onpageswap ; onpagehide ; onpagereveal ; onpageshow ; onpopstate ; onrejectionhandled ; onstorage ; onunhandledrejection ; onunload"
+    },
+    {
+      "name": "br",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-br-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "button",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-button-element",
+      "attributes": "globals ; command ; commandfor ; disabled ; form ; formaction ; formenctype ; formmethod ; formnovalidate ; formtarget ; name ; popovertarget ; popovertargetaction ; type ; value"
+    },
+    {
+      "name": "canvas",
+      "url": "https://html.spec.whatwg.org/multipage/canvas.html#the-canvas-element",
+      "attributes": "globals ; width ; height"
+    },
+    {
+      "name": "caption",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-caption-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "cite",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-cite-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "code",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-code-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "col",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-col-element",
+      "attributes": "globals ; span"
+    },
+    {
+      "name": "colgroup",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-colgroup-element",
+      "attributes": "globals ; span"
+    },
+    {
+      "name": "data",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-data-element",
+      "attributes": "globals ; value"
+    },
+    {
+      "name": "datalist",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "dd",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dd-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "del",
+      "url": "https://html.spec.whatwg.org/multipage/edits.html#the-del-element",
+      "attributes": "globals ; cite ; datetime"
+    },
+    {
+      "name": "details",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-details-element",
+      "attributes": "globals ; name ; open"
+    },
+    {
+      "name": "dfn",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-dfn-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "dialog",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element",
+      "attributes": "globals ; open"
+    },
+    {
+      "name": "div",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-div-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "dl",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dl-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "dt",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-dt-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "em",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-em-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "embed",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element",
+      "attributes": "globals ; src ; type ; width ; height ; any*"
+    },
+    {
+      "name": "fieldset",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element",
+      "attributes": "globals ; disabled ; form ; name"
+    },
+    {
+      "name": "figcaption",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figcaption-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "figure",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-figure-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "footer",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-footer-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "form",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html#the-form-element",
+      "attributes": "globals ; accept-charset ; action ; autocomplete ; enctype ; method ; name ; novalidate ; rel ; target"
+    },
+    {
+      "name": "h1",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "h2",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "h3",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "h4",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "h5",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "h6",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-h1,-h2,-h3,-h4,-h5,-and-h6-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "head",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-head-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "header",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-header-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "hgroup",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-hgroup-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "hr",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-hr-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "html",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-html-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "i",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-i-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "iframe",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element",
+      "attributes": "globals ; src ; srcdoc ; name ; sandbox ; allow ; allowfullscreen ; width ; height ; referrerpolicy ; loading"
+    },
+    {
+      "name": "img",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-img-element",
+      "attributes": "globals ; alt ; src ; srcset ; sizes ; crossorigin ; usemap ; ismap ; controls ; width ; height ; referrerpolicy ; decoding ; loading ; fetchpriority"
+    },
+    {
+      "name": "input",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#the-input-element",
+      "attributes": "globals ; accept ; alpha ; alt ; autocomplete ; checked ; colorspace ; dirname ; disabled ; form ; formaction ; formenctype ; formmethod ; formnovalidate ; formtarget ; height ; list ; max ; maxlength ; min ; minlength ; multiple ; name ; pattern ; placeholder ; popovertarget ; popovertargetaction ; readonly ; required ; size ; src ; step ; type ; value ; width"
+    },
+    {
+      "name": "ins",
+      "url": "https://html.spec.whatwg.org/multipage/edits.html#the-ins-element",
+      "attributes": "globals ; cite ; datetime"
+    },
+    {
+      "name": "kbd",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-kbd-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "label",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html#the-label-element",
+      "attributes": "globals ; for"
+    },
+    {
+      "name": "legend",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "li",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-li-element",
+      "attributes": "globals ; value *"
+    },
+    {
+      "name": "link",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-link-element",
+      "attributes": "globals ; href ; crossorigin ; rel ; as ; media ; hreflang ; type ; sizes ; imagesrcset ; imagesizes ; referrerpolicy ; integrity ; blocking ; color ; disabled ; fetchpriority"
+    },
+    {
+      "name": "main",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-main-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "map",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#the-map-element",
+      "attributes": "globals ; name"
+    },
+    {
+      "name": "mark",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-mark-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "menu",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-menu-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "meta",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-meta-element",
+      "attributes": "globals ; name ; http-equiv ; content ; charset ; media"
+    },
+    {
+      "name": "meter",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-meter-element",
+      "attributes": "globals ; value ; min ; max ; low ; high ; optimum"
+    },
+    {
+      "name": "nav",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-nav-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "noscript",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-noscript-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "object",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-object-element",
+      "attributes": "globals ; data ; type ; name ; form ; width ; height"
+    },
+    {
+      "name": "ol",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ol-element",
+      "attributes": "globals ; reversed ; start ; type"
+    },
+    {
+      "name": "optgroup",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-optgroup-element",
+      "attributes": "globals ; disabled ; label"
+    },
+    {
+      "name": "option",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-option-element",
+      "attributes": "globals ; disabled ; label ; selected ; value"
+    },
+    {
+      "name": "output",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-output-element",
+      "attributes": "globals ; for ; form ; name"
+    },
+    {
+      "name": "p",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-p-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "picture",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "pre",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-pre-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "progress",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element",
+      "attributes": "globals ; value ; max"
+    },
+    {
+      "name": "q",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-q-element",
+      "attributes": "globals ; cite"
+    },
+    {
+      "name": "rp",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rp-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "rt",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-rt-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "ruby",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-ruby-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "s",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-s-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "samp",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-samp-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "script",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-script-element",
+      "attributes": "globals ; src ; type ; nomodule ; async ; defer ; crossorigin ; integrity ; referrerpolicy ; blocking ; fetchpriority"
+    },
+    {
+      "name": "search",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-search-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "section",
+      "url": "https://html.spec.whatwg.org/multipage/sections.html#the-section-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "select",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-select-element",
+      "attributes": "globals ; autocomplete ; disabled ; form ; multiple ; name ; required ; size"
+    },
+    {
+      "name": "selectedcontent",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-selectedcontent-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "slot",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+      "attributes": "globals ; name"
+    },
+    {
+      "name": "small",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-small-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "source",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-source-element",
+      "attributes": "globals ; type ; media ; src ; srcset ; sizes ; width ; height"
+    },
+    {
+      "name": "span",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "strong",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-strong-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "style",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-style-element",
+      "attributes": "globals ; media ; blocking"
+    },
+    {
+      "name": "sub",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "summary",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#the-summary-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "sup",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-sub-and-sup-elements",
+      "attributes": "globals"
+    },
+    {
+      "name": "table",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-table-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "tbody",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-tbody-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "td",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-td-element",
+      "attributes": "globals ; colspan ; rowspan ; headers"
+    },
+    {
+      "name": "template",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#the-template-element",
+      "attributes": "globals ; for ; shadowrootmode ; shadowrootdelegatesfocus ; shadowrootserializable ; shadowrootslotassignment ; shadowrootclonable ; shadowrootcustomelementregistry"
+    },
+    {
+      "name": "textarea",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-textarea-element",
+      "attributes": "globals ; autocomplete ; cols ; dirname ; disabled ; form ; maxlength ; minlength ; name ; placeholder ; readonly ; required ; rows ; wrap"
+    },
+    {
+      "name": "tfoot",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-tfoot-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "th",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-th-element",
+      "attributes": "globals ; colspan ; rowspan ; headers ; scope ; abbr"
+    },
+    {
+      "name": "thead",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-thead-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "time",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-time-element",
+      "attributes": "globals ; datetime"
+    },
+    {
+      "name": "title",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#the-title-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "tr",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#the-tr-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "track",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#the-track-element",
+      "attributes": "globals ; default ; kind ; label ; src ; srclang"
+    },
+    {
+      "name": "u",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-u-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "ul",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#the-ul-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "var",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-var-element",
+      "attributes": "globals"
+    },
+    {
+      "name": "video",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#the-video-element",
+      "attributes": "globals ; src ; crossorigin ; poster ; preload ; autoplay ; playsinline ; loading ; loop ; muted ; controls ; width ; height"
+    },
+    {
+      "name": "wbr",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-wbr-element",
+      "attributes": "globals"
+    }
+  ],
+  "foreign_roots": [
+    {
+      "name": "math",
+      "url": "https://www.w3.org/TR/mathml-core/"
+    },
+    {
+      "name": "svg",
+      "url": "https://www.w3.org/TR/SVG2/"
+    }
+  ],
+  "custom_elements_family": true,
+  "attributes": [
+    {
+      "name": "abbr",
+      "elements": "th",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#attr-th-abbr"
+    },
+    {
+      "name": "accept",
+      "elements": "input",
+      "values": "Set of comma-separated tokens * consisting of valid MIME type strings with no parameters or audio/* , video/* , or image/*",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-accept"
+    },
+    {
+      "name": "accept-charset",
+      "elements": "form",
+      "values": "ASCII case-insensitive match for \" UTF-8 \"",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html#attr-form-accept-charset"
+    },
+    {
+      "name": "accesskey",
+      "elements": "HTML elements",
+      "values": "Ordered set of unique space-separated tokens , none of which are identical to another, each consisting of one code point in length",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-accesskey-attribute"
+    },
+    {
+      "name": "action",
+      "elements": "form",
+      "values": "Valid non-empty URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-action"
+    },
+    {
+      "name": "allow",
+      "elements": "iframe",
+      "values": "Serialized permissions policy",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allow"
+    },
+    {
+      "name": "allowfullscreen",
+      "elements": "iframe",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-allowfullscreen"
+    },
+    {
+      "name": "alpha",
+      "elements": "input",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-alpha"
+    },
+    {
+      "name": "alt",
+      "elements": "area ; img ; input",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-alt"
+    },
+    {
+      "name": "as",
+      "elements": "link",
+      "values": "Preload destination , for rel =\" preload \"; module preload destination , for rel =\" modulepreload \"",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-as"
+    },
+    {
+      "name": "async",
+      "elements": "script",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-async"
+    },
+    {
+      "name": "autocapitalize",
+      "elements": "HTML elements",
+      "values": "\" on \"; \" off \"; \" none \"; \" sentences \"; \" words \"; \" characters \"",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocapitalize"
+    },
+    {
+      "name": "autocomplete",
+      "elements": "form",
+      "values": "\" on \"; \" off \"",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html#attr-form-autocomplete"
+    },
+    {
+      "name": "autocomplete",
+      "elements": "input ; select ; textarea",
+      "values": "Autofill field name and related tokens*",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-autocomplete"
+    },
+    {
+      "name": "autocorrect",
+      "elements": "HTML elements",
+      "values": "\" on \"; \" off \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-autocorrect"
+    },
+    {
+      "name": "autofocus",
+      "elements": "HTML elements",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-fe-autofocus"
+    },
+    {
+      "name": "autoplay",
+      "elements": "audio ; video",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-autoplay"
+    },
+    {
+      "name": "blocking",
+      "elements": "link ; script ; style",
+      "values": "Unordered set of unique space-separated tokens *",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-blocking"
+    },
+    {
+      "name": "charset",
+      "elements": "meta",
+      "values": "\" utf-8 \"",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-charset"
+    },
+    {
+      "name": "checked",
+      "elements": "input",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-checked"
+    },
+    {
+      "name": "cite",
+      "elements": "blockquote ; del ; ins ; q",
+      "values": "Valid URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#attr-blockquote-cite"
+    },
+    {
+      "name": "class",
+      "elements": "HTML elements",
+      "values": "Set of space-separated tokens",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#classes"
+    },
+    {
+      "name": "closedby",
+      "elements": "dialog",
+      "values": "\" any \"; \" closerequest \"; \" none \";",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-closedby"
+    },
+    {
+      "name": "color",
+      "elements": "link",
+      "values": "CSS <color>",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-color"
+    },
+    {
+      "name": "colorspace",
+      "elements": "input",
+      "values": "\" limited-srgb \"; \" display-p3 \"",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-colorspace"
+    },
+    {
+      "name": "cols",
+      "elements": "textarea",
+      "values": "Valid non-negative integer greater than zero",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-cols"
+    },
+    {
+      "name": "colspan",
+      "elements": "td ; th",
+      "values": "Valid non-negative integer greater than zero",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#attr-tdth-colspan"
+    },
+    {
+      "name": "command",
+      "elements": "button",
+      "values": "\" toggle-popover \"; \" show-popover \"; \" hide-popover \"; \" close \"; \" request-close \"; \" show-modal \"; a custom command keyword",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-command"
+    },
+    {
+      "name": "commandfor",
+      "elements": "button",
+      "values": "ID *",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-commandfor"
+    },
+    {
+      "name": "content",
+      "elements": "meta",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-content"
+    },
+    {
+      "name": "contenteditable",
+      "elements": "HTML elements",
+      "values": "\" true \"; \" false \"; \" plaintext-only \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-contenteditable"
+    },
+    {
+      "name": "controls",
+      "elements": "audio ; video img ;",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-controls"
+    },
+    {
+      "name": "coords",
+      "elements": "area",
+      "values": "Valid list of floating-point numbers *",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-coords"
+    },
+    {
+      "name": "crossorigin",
+      "elements": "audio ; img ; link ; script ; video",
+      "values": "\" anonymous \"; \" use-credentials \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-crossorigin"
+    },
+    {
+      "name": "data",
+      "elements": "object",
+      "values": "Valid non-empty URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-object-data"
+    },
+    {
+      "name": "datetime",
+      "elements": "del ; ins",
+      "values": "Valid date string with optional time",
+      "url": "https://html.spec.whatwg.org/multipage/edits.html#attr-mod-datetime"
+    },
+    {
+      "name": "datetime",
+      "elements": "time",
+      "values": "Valid month string , valid date string , valid yearless date string , valid time string , valid local date and time string , valid time-zone offset string , valid global date and time string , valid week string , valid non-negative integer , or valid duration string",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#attr-time-datetime"
+    },
+    {
+      "name": "decoding",
+      "elements": "img",
+      "values": "\" sync \"; \" async \"; \" auto \"",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-decoding"
+    },
+    {
+      "name": "default",
+      "elements": "track",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-default"
+    },
+    {
+      "name": "defer",
+      "elements": "script",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-defer"
+    },
+    {
+      "name": "dir",
+      "elements": "HTML elements",
+      "values": "\" ltr \"; \" rtl \"; \" auto \"",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#attr-dir"
+    },
+    {
+      "name": "dir",
+      "elements": "bdo",
+      "values": "\" ltr \"; \" rtl \"",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-bdo-element"
+    },
+    {
+      "name": "dirname",
+      "elements": "input ; textarea",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-dirname"
+    },
+    {
+      "name": "disabled",
+      "elements": "button ; input ; optgroup ; option ; select ; textarea ; form-associated custom elements",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled"
+    },
+    {
+      "name": "disabled",
+      "elements": "fieldset",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-fieldset-disabled"
+    },
+    {
+      "name": "disabled",
+      "elements": "link",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-disabled"
+    },
+    {
+      "name": "download",
+      "elements": "a ; area",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-download"
+    },
+    {
+      "name": "draggable",
+      "elements": "HTML elements",
+      "values": "\" true \"; \" false \"",
+      "url": "https://html.spec.whatwg.org/multipage/dnd.html#attr-draggable"
+    },
+    {
+      "name": "enctype",
+      "elements": "form",
+      "values": "\" application/x-www-form-urlencoded \"; \" multipart/form-data \"; \" text/plain \"",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-enctype"
+    },
+    {
+      "name": "enterkeyhint",
+      "elements": "HTML elements",
+      "values": "\" enter \"; \" done \"; \" go \"; \" next \"; \" previous \"; \" search \"; \" send \"",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-enterkeyhint"
+    },
+    {
+      "name": "fetchpriority",
+      "elements": "img ; link ; script",
+      "values": "\" auto \"; \" high \"; \" low \"",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-fetchpriority"
+    },
+    {
+      "name": "for",
+      "elements": "label",
+      "values": "ID *",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html#attr-label-for"
+    },
+    {
+      "name": "for",
+      "elements": "output",
+      "values": "Unordered set of unique space-separated tokens consisting of IDs*",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-output-for"
+    },
+    {
+      "name": "for",
+      "elements": "template",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-for"
+    },
+    {
+      "name": "form",
+      "elements": "button ; fieldset ; input ; object ; output ; select ; textarea ; form-associated custom elements",
+      "values": "ID *",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fae-form"
+    },
+    {
+      "name": "formaction",
+      "elements": "button ; input",
+      "values": "Valid non-empty URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formaction"
+    },
+    {
+      "name": "formenctype",
+      "elements": "button ; input",
+      "values": "\" application/x-www-form-urlencoded \"; \" multipart/form-data \"; \" text/plain \"",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formenctype"
+    },
+    {
+      "name": "formmethod",
+      "elements": "button ; input",
+      "values": "\" get \"; \" post \"; \" dialog \"",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formmethod"
+    },
+    {
+      "name": "formnovalidate",
+      "elements": "button ; input",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formnovalidate"
+    },
+    {
+      "name": "formtarget",
+      "elements": "button ; input",
+      "values": "Valid navigable target name or keyword",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formtarget"
+    },
+    {
+      "name": "headers",
+      "elements": "td ; th",
+      "values": "Unordered set of unique space-separated tokens consisting of IDs*",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#attr-tdth-headers"
+    },
+    {
+      "name": "headingoffset",
+      "elements": "HTML elements",
+      "values": "Valid non-negative integer between 0 and 8",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex"
+    },
+    {
+      "name": "headingreset",
+      "elements": "HTML elements",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex"
+    },
+    {
+      "name": "height",
+      "elements": "canvas ; embed ; iframe ; img ; input ; object ; source (in picture ); video",
+      "values": "Valid non-negative integer",
+      "url": "https://html.spec.whatwg.org/multipage/canvas.html#attr-canvas-height"
+    },
+    {
+      "name": "hidden",
+      "elements": "HTML elements",
+      "values": "\" until-found \"; \" hidden \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-hidden"
+    },
+    {
+      "name": "high",
+      "elements": "meter",
+      "values": "Valid floating-point number *",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-high"
+    },
+    {
+      "name": "href",
+      "elements": "a ; area",
+      "values": "Valid URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-href"
+    },
+    {
+      "name": "href",
+      "elements": "link",
+      "values": "Valid non-empty URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-href"
+    },
+    {
+      "name": "href",
+      "elements": "base",
+      "values": "Valid URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-base-href"
+    },
+    {
+      "name": "hreflang",
+      "elements": "a ; link",
+      "values": "Valid BCP 47 language tag",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-hreflang"
+    },
+    {
+      "name": "http-equiv",
+      "elements": "meta",
+      "values": "\" content-type \"; \" default-style \"; \" refresh \"; \" x-ua-compatible \"; \" content-security-policy \"",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-http-equiv"
+    },
+    {
+      "name": "id",
+      "elements": "HTML elements",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute"
+    },
+    {
+      "name": "imagesizes",
+      "elements": "link",
+      "values": "Valid source size list",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-imagesizes"
+    },
+    {
+      "name": "imagesrcset",
+      "elements": "link",
+      "values": "Comma-separated list of image candidate strings",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-imagesrcset"
+    },
+    {
+      "name": "inert",
+      "elements": "HTML elements",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#the-inert-attribute"
+    },
+    {
+      "name": "inputmode",
+      "elements": "HTML elements",
+      "values": "\" none \"; \" text \"; \" tel \"; \" email \"; \" url \"; \" numeric \"; \" decimal \"; \" search \"",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode"
+    },
+    {
+      "name": "integrity",
+      "elements": "link ; script",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-integrity"
+    },
+    {
+      "name": "is",
+      "elements": "HTML elements",
+      "values": "Valid custom element name of a defined customized built-in element",
+      "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-is"
+    },
+    {
+      "name": "ismap",
+      "elements": "img",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-ismap"
+    },
+    {
+      "name": "itemid",
+      "elements": "HTML elements",
+      "values": "Valid URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/microdata.html#attr-itemid"
+    },
+    {
+      "name": "itemprop",
+      "elements": "HTML elements",
+      "values": "Unordered set of unique space-separated tokens consisting of valid absolute URLs , defined property names , or text*",
+      "url": "https://html.spec.whatwg.org/multipage/microdata.html#names:-the-itemprop-attribute"
+    },
+    {
+      "name": "itemref",
+      "elements": "HTML elements",
+      "values": "Unordered set of unique space-separated tokens consisting of IDs*",
+      "url": "https://html.spec.whatwg.org/multipage/microdata.html#attr-itemref"
+    },
+    {
+      "name": "itemscope",
+      "elements": "HTML elements",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/microdata.html#attr-itemscope"
+    },
+    {
+      "name": "itemtype",
+      "elements": "HTML elements",
+      "values": "Unordered set of unique space-separated tokens consisting of valid absolute URLs *",
+      "url": "https://html.spec.whatwg.org/multipage/microdata.html#attr-itemtype"
+    },
+    {
+      "name": "kind",
+      "elements": "track",
+      "values": "\" subtitles \"; \" captions \"; \" descriptions \"; \" chapters \"; \" metadata \"",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-kind"
+    },
+    {
+      "name": "label",
+      "elements": "optgroup ; option ; track",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-optgroup-label"
+    },
+    {
+      "name": "lang",
+      "elements": "HTML elements",
+      "values": "Valid BCP 47 language tag or the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#attr-lang"
+    },
+    {
+      "name": "list",
+      "elements": "input",
+      "values": "ID *",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-list"
+    },
+    {
+      "name": "loading",
+      "elements": "iframe ; img ; audio ; video",
+      "values": "\" lazy \"; \" eager \"",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-loading"
+    },
+    {
+      "name": "loop",
+      "elements": "audio ; video",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-loop"
+    },
+    {
+      "name": "low",
+      "elements": "meter",
+      "values": "Valid floating-point number *",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-low"
+    },
+    {
+      "name": "max",
+      "elements": "input",
+      "values": "Varies*",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-max"
+    },
+    {
+      "name": "max",
+      "elements": "meter ; progress",
+      "values": "Valid floating-point number *",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-max"
+    },
+    {
+      "name": "maxlength",
+      "elements": "input ; textarea",
+      "values": "Valid non-negative integer",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-maxlength"
+    },
+    {
+      "name": "media",
+      "elements": "link ; meta ; source ; style",
+      "values": "Valid media query list",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-media"
+    },
+    {
+      "name": "method",
+      "elements": "form",
+      "values": "\" get \"; \" post \"; \" dialog \"",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-method"
+    },
+    {
+      "name": "min",
+      "elements": "input",
+      "values": "Varies*",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-min"
+    },
+    {
+      "name": "min",
+      "elements": "meter",
+      "values": "Valid floating-point number *",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-min"
+    },
+    {
+      "name": "minlength",
+      "elements": "input ; textarea",
+      "values": "Valid non-negative integer",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-minlength"
+    },
+    {
+      "name": "multiple",
+      "elements": "input ; select",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-multiple"
+    },
+    {
+      "name": "muted",
+      "elements": "audio ; video",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-muted"
+    },
+    {
+      "name": "name",
+      "elements": "button ; fieldset ; input ; output ; select ; textarea ; form-associated custom elements",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-name"
+    },
+    {
+      "name": "name",
+      "elements": "details",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-details-name"
+    },
+    {
+      "name": "name",
+      "elements": "form",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/forms.html#attr-form-name"
+    },
+    {
+      "name": "name",
+      "elements": "iframe ; object",
+      "values": "Valid navigable target name or keyword",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-name"
+    },
+    {
+      "name": "name",
+      "elements": "map",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#attr-map-name"
+    },
+    {
+      "name": "name",
+      "elements": "meta",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-meta-name"
+    },
+    {
+      "name": "name",
+      "elements": "slot",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-slot-name"
+    },
+    {
+      "name": "nomodule",
+      "elements": "script",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-nomodule"
+    },
+    {
+      "name": "nonce",
+      "elements": "HTML elements",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/urls-and-fetching.html#attr-nonce"
+    },
+    {
+      "name": "novalidate",
+      "elements": "form",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-novalidate"
+    },
+    {
+      "name": "open",
+      "elements": "details",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-details-open"
+    },
+    {
+      "name": "open",
+      "elements": "dialog",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/interactive-elements.html#attr-dialog-open"
+    },
+    {
+      "name": "optimum",
+      "elements": "meter",
+      "values": "Valid floating-point number *",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-optimum"
+    },
+    {
+      "name": "pattern",
+      "elements": "input",
+      "values": "Regular expression matching the JavaScript Pattern production",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-pattern"
+    },
+    {
+      "name": "ping",
+      "elements": "a ; area",
+      "values": "Set of space-separated tokens consisting of valid non-empty URLs",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#ping"
+    },
+    {
+      "name": "placeholder",
+      "elements": "input ; textarea",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-placeholder"
+    },
+    {
+      "name": "playsinline",
+      "elements": "video",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-video-playsinline"
+    },
+    {
+      "name": "popover",
+      "elements": "HTML elements",
+      "values": "\" auto \"; \" manual \"; \" hint \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/popover.html#attr-popover"
+    },
+    {
+      "name": "popovertarget",
+      "elements": "button ; input",
+      "values": "ID *",
+      "url": "https://html.spec.whatwg.org/multipage/popover.html#attr-popovertarget"
+    },
+    {
+      "name": "popovertargetaction",
+      "elements": "button ; input",
+      "values": "\" toggle \"; \" show \"; \" hide \"",
+      "url": "https://html.spec.whatwg.org/multipage/popover.html#attr-popovertargetaction"
+    },
+    {
+      "name": "poster",
+      "elements": "video",
+      "values": "Valid non-empty URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-video-poster"
+    },
+    {
+      "name": "preload",
+      "elements": "audio ; video",
+      "values": "\" none \"; \" metadata \"; \" auto \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-preload"
+    },
+    {
+      "name": "readonly",
+      "elements": "input ; textarea",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-readonly"
+    },
+    {
+      "name": "readonly",
+      "elements": "form-associated custom elements",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/custom-elements.html#attr-face-readonly"
+    },
+    {
+      "name": "referrerpolicy",
+      "elements": "a ; area ; iframe ; img ; link ; script",
+      "values": "Referrer policy",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-referrerpolicy"
+    },
+    {
+      "name": "rel",
+      "elements": "a ; area",
+      "values": "Unordered set of unique space-separated tokens *",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-rel"
+    },
+    {
+      "name": "rel",
+      "elements": "link",
+      "values": "Unordered set of unique space-separated tokens *",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-rel"
+    },
+    {
+      "name": "required",
+      "elements": "input ; select ; textarea",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-required"
+    },
+    {
+      "name": "reversed",
+      "elements": "ol",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#attr-ol-reversed"
+    },
+    {
+      "name": "rows",
+      "elements": "textarea",
+      "values": "Valid non-negative integer greater than zero",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-rows"
+    },
+    {
+      "name": "rowspan",
+      "elements": "td ; th",
+      "values": "Valid non-negative integer",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#attr-tdth-rowspan"
+    },
+    {
+      "name": "sandbox",
+      "elements": "iframe",
+      "values": "Unordered set of unique space-separated tokens , ASCII case-insensitive , consisting of \" allow-downloads \" \" allow-forms \" \" allow-modals \" \" allow-orientation-lock \" \" allow-pointer-lock \" \" allow-popups \" \" allow-popups-to-escape-sandbox \" \" allow-presentation \" \" allow-same-origin \" \" allow-scripts \" \" allow-top-navigation \" \" allow-top-navigation-by-user-activation \" \" allow-top-navigation-to-custom-protocols \"",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox"
+    },
+    {
+      "name": "scope",
+      "elements": "th",
+      "values": "\" row \"; \" col \"; \" rowgroup \"; \" colgroup \"",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#attr-th-scope"
+    },
+    {
+      "name": "selected",
+      "elements": "option",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-option-selected"
+    },
+    {
+      "name": "shadowrootclonable",
+      "elements": "template",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootclonable"
+    },
+    {
+      "name": "shadowrootcustomelementregistry",
+      "elements": "template",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootcustomelementregistry"
+    },
+    {
+      "name": "shadowrootdelegatesfocus",
+      "elements": "template",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootdelegatesfocus"
+    },
+    {
+      "name": "shadowrootmode",
+      "elements": "template",
+      "values": "\" open \"; \" closed \"",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootmode"
+    },
+    {
+      "name": "shadowrootserializable",
+      "elements": "template",
+      "values": "Boolean attribute",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootserializable"
+    },
+    {
+      "name": "shadowrootslotassignment",
+      "elements": "template",
+      "values": "\" named \"; \" manual \"",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-template-shadowrootslotassignment"
+    },
+    {
+      "name": "shape",
+      "elements": "area",
+      "values": "\" circle \"; \" default \"; \" poly \"; \" rect \"",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#attr-area-shape"
+    },
+    {
+      "name": "size",
+      "elements": "input ; select",
+      "values": "Valid non-negative integer greater than zero",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-size"
+    },
+    {
+      "name": "sizes",
+      "elements": "link",
+      "values": "Unordered set of unique space-separated tokens , ASCII case-insensitive , consisting of sizes*",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-sizes"
+    },
+    {
+      "name": "sizes",
+      "elements": "img ; source",
+      "values": "Valid source size list",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-sizes"
+    },
+    {
+      "name": "slot",
+      "elements": "HTML elements",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#the-id-attribute"
+    },
+    {
+      "name": "span",
+      "elements": "col ; colgroup",
+      "values": "Valid non-negative integer greater than zero",
+      "url": "https://html.spec.whatwg.org/multipage/tables.html#attr-col-span"
+    },
+    {
+      "name": "spellcheck",
+      "elements": "HTML elements",
+      "values": "\" true \"; \" false \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-spellcheck"
+    },
+    {
+      "name": "src",
+      "elements": "audio ; embed ; iframe ; img ; input ; script ; source (in video or audio ); track ; video",
+      "values": "Valid non-empty URL potentially surrounded by spaces",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-media-src"
+    },
+    {
+      "name": "srcdoc",
+      "elements": "iframe",
+      "values": "The source of an iframe srcdoc document *",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-srcdoc"
+    },
+    {
+      "name": "srclang",
+      "elements": "track",
+      "values": "Valid BCP 47 language tag",
+      "url": "https://html.spec.whatwg.org/multipage/media.html#attr-track-srclang"
+    },
+    {
+      "name": "srcset",
+      "elements": "img ; source",
+      "values": "Comma-separated list of image candidate strings",
+      "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset"
+    },
+    {
+      "name": "start",
+      "elements": "ol",
+      "values": "Valid integer",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#attr-ol-start"
+    },
+    {
+      "name": "step",
+      "elements": "input",
+      "values": "Valid floating-point number greater than zero, or \" any \"",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-step"
+    },
+    {
+      "name": "style",
+      "elements": "HTML elements",
+      "values": "CSS declarations*",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#attr-style"
+    },
+    {
+      "name": "tabindex",
+      "elements": "HTML elements",
+      "values": "Valid integer",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-tabindex"
+    },
+    {
+      "name": "target",
+      "elements": "a ; area",
+      "values": "Valid navigable target name or keyword",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-target"
+    },
+    {
+      "name": "target",
+      "elements": "base",
+      "values": "Valid navigable target name or keyword",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-base-target"
+    },
+    {
+      "name": "target",
+      "elements": "form",
+      "values": "Valid navigable target name or keyword",
+      "url": "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-target"
+    },
+    {
+      "name": "title",
+      "elements": "HTML elements",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#attr-title"
+    },
+    {
+      "name": "title",
+      "elements": "abbr ; dfn",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#attr-abbr-title"
+    },
+    {
+      "name": "title",
+      "elements": "input",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-title"
+    },
+    {
+      "name": "title",
+      "elements": "link",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-title"
+    },
+    {
+      "name": "title",
+      "elements": "link ; style",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-title"
+    },
+    {
+      "name": "translate",
+      "elements": "HTML elements",
+      "values": "\" yes \"; \" no \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/dom.html#attr-translate"
+    },
+    {
+      "name": "type",
+      "elements": "a ; link",
+      "values": "Valid MIME type string",
+      "url": "https://html.spec.whatwg.org/multipage/links.html#attr-hyperlink-type"
+    },
+    {
+      "name": "type",
+      "elements": "button",
+      "values": "\" submit \"; \" reset \"; \" button \"",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-type"
+    },
+    {
+      "name": "type",
+      "elements": "embed ; object ; source",
+      "values": "Valid MIME type string",
+      "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-embed-type"
+    },
+    {
+      "name": "type",
+      "elements": "input",
+      "values": "input type keyword",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-type"
+    },
+    {
+      "name": "type",
+      "elements": "ol",
+      "values": "\" 1 \"; \" a \"; \" A \"; \" i \"; \" I \"",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#attr-ol-type"
+    },
+    {
+      "name": "type",
+      "elements": "script",
+      "values": "\" module \"; \" importmap \"; \" speculationrules \"; a valid MIME type string that is not a JavaScript MIME type essence match",
+      "url": "https://html.spec.whatwg.org/multipage/scripting.html#attr-script-type"
+    },
+    {
+      "name": "usemap",
+      "elements": "img",
+      "values": "Valid hash-name reference *",
+      "url": "https://html.spec.whatwg.org/multipage/image-maps.html#attr-hyperlink-usemap"
+    },
+    {
+      "name": "value",
+      "elements": "button ; option",
+      "values": "Text",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-button-value"
+    },
+    {
+      "name": "value",
+      "elements": "data",
+      "values": "Text *",
+      "url": "https://html.spec.whatwg.org/multipage/text-level-semantics.html#attr-data-value"
+    },
+    {
+      "name": "value",
+      "elements": "input",
+      "values": "Varies*",
+      "url": "https://html.spec.whatwg.org/multipage/input.html#attr-input-value"
+    },
+    {
+      "name": "value",
+      "elements": "li",
+      "values": "Valid integer",
+      "url": "https://html.spec.whatwg.org/multipage/grouping-content.html#attr-li-value"
+    },
+    {
+      "name": "value",
+      "elements": "meter ; progress",
+      "values": "Valid floating-point number",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-value"
+    },
+    {
+      "name": "width",
+      "elements": "canvas ; embed ; iframe ; img ; input ; object ; source (in picture ); video",
+      "values": "Valid non-negative integer",
+      "url": "https://html.spec.whatwg.org/multipage/canvas.html#attr-canvas-width"
+    },
+    {
+      "name": "wrap",
+      "elements": "textarea",
+      "values": "\" soft \"; \" hard \"",
+      "url": "https://html.spec.whatwg.org/multipage/form-elements.html#attr-textarea-wrap"
+    },
+    {
+      "name": "writingsuggestions",
+      "elements": "HTML elements",
+      "values": "\" true \"; \" false \"; the empty string",
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-writingsuggestions"
+    }
+  ],
+  "event_attributes": [
+    {
+      "name": "onafterprint",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onafterprint"
+    },
+    {
+      "name": "onauxclick",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onauxclick"
+    },
+    {
+      "name": "onbeforeinput",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onbeforeinput"
+    },
+    {
+      "name": "onbeforematch",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onbeforematch"
+    },
+    {
+      "name": "onbeforeprint",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onbeforeprint"
+    },
+    {
+      "name": "onbeforeunload",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onbeforeunload"
+    },
+    {
+      "name": "onbeforetoggle",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onbeforetoggle"
+    },
+    {
+      "name": "onblur",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
+    },
+    {
+      "name": "oncancel",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncancel"
+    },
+    {
+      "name": "oncanplay",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncanplay"
+    },
+    {
+      "name": "oncanplaythrough",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncanplaythrough"
+    },
+    {
+      "name": "onchange",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onchange"
+    },
+    {
+      "name": "onclick",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onclick"
+    },
+    {
+      "name": "onclose",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onclose"
+    },
+    {
+      "name": "oncommand",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncommand"
+    },
+    {
+      "name": "oncontextlost",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncontextlost"
+    },
+    {
+      "name": "oncontextmenu",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncontextmenu"
+    },
+    {
+      "name": "oncontextrestored",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncontextrestored"
+    },
+    {
+      "name": "oncopy",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncopy"
+    },
+    {
+      "name": "oncuechange",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncuechange"
+    },
+    {
+      "name": "oncut",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncut"
+    },
+    {
+      "name": "ondblclick",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondblclick"
+    },
+    {
+      "name": "ondrag",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondrag"
+    },
+    {
+      "name": "ondragend",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondragend"
+    },
+    {
+      "name": "ondragenter",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondragenter"
+    },
+    {
+      "name": "ondragleave",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondragleave"
+    },
+    {
+      "name": "ondragover",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondragover"
+    },
+    {
+      "name": "ondragstart",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondragstart"
+    },
+    {
+      "name": "ondrop",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondrop"
+    },
+    {
+      "name": "ondurationchange",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondurationchange"
+    },
+    {
+      "name": "onemptied",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onemptied"
+    },
+    {
+      "name": "onended",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onended"
+    },
+    {
+      "name": "onerror",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onerror"
+    },
+    {
+      "name": "onfocus",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
+    },
+    {
+      "name": "onformdata",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onformdata"
+    },
+    {
+      "name": "onhashchange",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onhashchange"
+    },
+    {
+      "name": "oninput",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oninput"
+    },
+    {
+      "name": "oninvalid",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oninvalid"
+    },
+    {
+      "name": "onkeydown",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeydown"
+    },
+    {
+      "name": "onkeypress",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeypress"
+    },
+    {
+      "name": "onkeyup",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeyup"
+    },
+    {
+      "name": "onlanguagechange",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onlanguagechange"
+    },
+    {
+      "name": "onload",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onload"
+    },
+    {
+      "name": "onloadeddata",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onloadeddata"
+    },
+    {
+      "name": "onloadedmetadata",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onloadedmetadata"
+    },
+    {
+      "name": "onloadstart",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onloadstart"
+    },
+    {
+      "name": "onmessage",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onmessage"
+    },
+    {
+      "name": "onmessageerror",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onmessageerror"
+    },
+    {
+      "name": "onmousedown",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmousedown"
+    },
+    {
+      "name": "onmouseenter",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseenter"
+    },
+    {
+      "name": "onmouseleave",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseleave"
+    },
+    {
+      "name": "onmousemove",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmousemove"
+    },
+    {
+      "name": "onmouseout",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseout"
+    },
+    {
+      "name": "onmouseover",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseover"
+    },
+    {
+      "name": "onmouseup",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseup"
+    },
+    {
+      "name": "onoffline",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onoffline"
+    },
+    {
+      "name": "ononline",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-ononline"
+    },
+    {
+      "name": "onpagehide",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpagehide"
+    },
+    {
+      "name": "onpagereveal",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpagereveal"
+    },
+    {
+      "name": "onpageshow",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpageshow"
+    },
+    {
+      "name": "onpageswap",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpageswap"
+    },
+    {
+      "name": "onpaste",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onpaste"
+    },
+    {
+      "name": "onpause",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onpause"
+    },
+    {
+      "name": "onplay",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onplay"
+    },
+    {
+      "name": "onplaying",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onplaying"
+    },
+    {
+      "name": "onpopstate",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onpopstate"
+    },
+    {
+      "name": "onprogress",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onprogress"
+    },
+    {
+      "name": "onratechange",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onratechange"
+    },
+    {
+      "name": "onreset",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onreset"
+    },
+    {
+      "name": "onresize",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onresize"
+    },
+    {
+      "name": "onrejectionhandled",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onrejectionhandled"
+    },
+    {
+      "name": "onscroll",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
+    },
+    {
+      "name": "onscrollend",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscrollend"
+    },
+    {
+      "name": "onsecuritypolicyviolation",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsecuritypolicyviolation"
+    },
+    {
+      "name": "onseeked",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onseeked"
+    },
+    {
+      "name": "onseeking",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onseeking"
+    },
+    {
+      "name": "onselect",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onselect"
+    },
+    {
+      "name": "onslotchange",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onslotchange"
+    },
+    {
+      "name": "onstalled",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onstalled"
+    },
+    {
+      "name": "onstorage",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onstorage"
+    },
+    {
+      "name": "onsubmit",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsubmit"
+    },
+    {
+      "name": "onsuspend",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsuspend"
+    },
+    {
+      "name": "ontimeupdate",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ontimeupdate"
+    },
+    {
+      "name": "ontoggle",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ontoggle"
+    },
+    {
+      "name": "onunhandledrejection",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onunhandledrejection"
+    },
+    {
+      "name": "onunload",
+      "elements": "body",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onunload"
+    },
+    {
+      "name": "onvolumechange",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onvolumechange"
+    },
+    {
+      "name": "onwaiting",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onwaiting"
+    },
+    {
+      "name": "onwheel",
+      "elements": "HTML elements",
+      "url": "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onwheel"
+    }
+  ]
+}
